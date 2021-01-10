@@ -18,6 +18,12 @@
 <link href="styles.b094e1186db7865c7108.css" rel="stylesheet"></head>
 <body>
 <header class="h">
+  <picture>
+    <img srcset="assets/images/nav-background.jpg" alt="nav-background" class="h__nav-bg">
+  </picture>
+
+  <div class="h__clouds"></div><!-- /.h__clouds -->
+
 	<div class="wrapper">
 		<div class="h__logo">
 			<a href="index.html">
@@ -40,7 +46,7 @@
 				<li>
 					<a href="gallery.html">Галерия</a>
 				</li>
-				<li>
+				<li class="active">
 					<a href="blog.html">Актуално</a>
 				</li>
 				<li>
@@ -55,181 +61,30 @@
 		<a class="h__menu-call" href="tel:+359884606014">+359 884 606014</a><!--/.h__menu-call-->
 	</div><!-- /.wrapper -->
 </header><!-- /.h -->
-<div class="header-section">
-	<picture>
-		<source srcset="assets/images/header-background.png 1920w" media="(min-width: 768px )">
-		<source srcset="assets/images/header-background.png 768w" media="(min-width: 320px )">
-		<img srcset="assets/images/header-background.png 320w" alt="" class="header-section__bg">
-
-		<div class="header-section__clouds"></div><!-- /.header-section__clouds -->
-	</picture>
-
-	<div class="wrapper">
-		<div class="header-section__content">
-			<h1 class="header-section__content--title">VarnaBuild</h1><!-- /.header-section--title -->
-			
-			<h2 class="header-section__content--subtitle">properties</h2><!-- /.header-section--subtitle -->
-		
-			<div class="header-section__content--buttons">
-				<a href="#" class="btn">Текущи проекти</a>
-				<a href="#" class="btn">Завършени проекти</a>
-				<a href="other-property.html" class="btn">Други имоти</a>
-			</div><!-- /.btn-section -->
-
-			<div class="arrows-content">
-				<a data-scroll href="#full">
-					<div class="arrows"></div>
-				</a>
-			</div>
-		</div><!-- /.header-section__content -->
-	</div><!-- /.wrapper -->
-</div><!-- /.header-section -->
-<div id="full" class="about page-section--about">
-	<div class="wrapper">
-		<h2 class="about__title">
-			<span class="about__subtitle">Строителна компания</span>
-			Varna<span class="about__title--blue">Build</span>
-		</h2><!-- /.about__title .about--subtitle .about__title--blue -->
-		
-		<p class="about__description">„Варнабилд имоти“ ЕООД започва дейността си през 2006г. Компанията е ориентирана към инвестиционното строителство на жилищни сгради. В изгражданите от нас обекти влагаме съвременни иновационни строителни материали и технологии. Високото качество на строителството и индивидуалния подход към всеки клиент, са водещите мотиви в работата на фирмата.</p>
-		
-		<div class="about--btn">
-			<a href="#" class="btn btn--blue">За нас</a>
-			<a href="#" class="btn btn--blue">Контакти</a>
-		</div><!-- /.about--btn -->
-	</div><!-- /.wrapper -->
-</div><!-- /.about page-section--about -->
-<div class="project page-section--project">
-	<div class="wrapper">
-		<h2 class="project--title">Разгледайте нашите последни проекти</h2><!-- /.project--title -->
-		
-		<div class="portfolio section">
-			<div class="container">
-				<div class="filters">
-					<ul>
-						<li class="active" data-filter="*">Всички</li>
-						<li data-filter=".current">Текущи</li>
-						<li data-filter=".finish">Завършени</li>
-					</ul>
-				</div><!--/.filters-->
-				
-				<div class="filters-content">
-					<div class="row grid">
-						<div class="col-sm-4 all current">
-							<a href="single-project-whit-map.html">
-								<div class="item">
-									<div class="item-photo">
-										<img src="assets/images/project.jpg" alt="project">
-									</div><!-- /.item-photo -->
-
-									<div class="p-inner">
-										<h4>кв. Виница, ул. “Морска Звезда” 2</h4>
-
-										<div class="cat">
-											<p>Завършване: Сепември, 2021 г.</p>
-											<p>Свободни: 20 апартамента</p>
-										</div><!-- /.cat -->
-									</div><!-- /.p-inner -->
-								</div><!-- /.item -->
-							</a>
-						</div><!-- /.col-sm-4 -->
-
-						<div class="col-sm-4 all finish">
-							<a href="single-project.html">
-								<div class="item">
-									<div class="item-photo">
-										<img src="assets/images/project2.jpg" alt="project2">
-									</div><!-- /.item-photo -->
-
-									<div class="p-inner">
-										<h4>ул. “Константин Павлов” 18</h4>
-
-										<div class="cat">
-											<p>Завършване: Сепември, 2021 г.</p>
-											<p>Свободни: 20 апартамента</p>
-										</div><!-- /.cat -->
-									</div><!-- /.p-inner -->
-								</div><!-- /.item -->
-							</a>
-						</div><!-- /.col-sm-4 -->
-
-						<div class="col-sm-4 all current">
-							<a href="#">
-								<div class="item">
-									<div class="item-photo">
-										<img src="assets/images/project3.jpg" alt="project3">
-									</div><!-- /.item-photo -->
-
-									<div class="p-inner">
-										<h4>ул. “Константин Щъркелов” 6</h4>
-
-										<div class="cat">
-											<p>Завършване: Сепември, 2021 г.</p>
-											<p>Свободни: 20 апартамента</p>
-										</div><!-- /.cat -->
-									</div><!-- /.p-inner -->
-								</div><!-- /.item -->
-							</a>
-						</div><!-- /.col-sm-4 -->
-					</div><!-- /.row grid -->
-				</div><!-- /.filters-content -->
-			</div><!-- /.container -->
-		</div><!-- /.portfolio section -->
-	</div><!-- /.wrapper -->
-</div><!-- /.project page-section--project -->
-<div class="our-approach page-section--our-approach">
-	<div class="wrapper">
-		<div class="our-approach__content">
-			<div class="our-approach__content--photo">
-				<picture>
-					<img src="assets/images/our-approach.jpg" alt="our-approach">
-				</picture>
-			</div><!-- /.our-approach__content--photo-->
-			
-			<div class="our-approach__content--description">
-				<h2 class="our-approach__content--title">Нашия подход</h2><!-- /.our-approach__content--title -->
-	
-				<div class="our-approach__content--box">
-					<div class="our-approach__content--box__title">
-						<img src="assets/images/award.png" alt="award">
-	
-						<h4>Високо качество на строителство</h4><!-- /.our-approach__content--box__info -->
-					</div><!-- /.our-approach__content--box__title -->
-
-					<div class="our-approach__content--box__title">
-						<img src="assets/images/badge.png" alt="badge">
-	
-						<h4>Индивидуален подход към всеки клиент</h4><!-- /.our-approach__content--box__info -->
-					</div><!-- /.our-approach__content--box__title -->
-
-					<div class="our-approach__content--box__title">
-						<img src="assets/images/construction-machine.png" alt="machine">
-	
-						<h4>Коректност в строителството</h4><!-- /.our-approach__content--box__info -->
-					</div><!-- /.our-approach__content--box__title -->
-				</div><!-- /.our-approach__content--box -->
-			</div><!-- /.our-approach__content--description -->
-		</div><!-- /.our-approach__content -->
-	</div><!-- /.wrapper -->
-</div><!-- /.our-approach page-section--our-approach -->
+<div class="breadcrumbs-nav">
+  <ul class="breadcrumbs-nav__breadcrumb">
+    <li><a href="index.html">Начало</a></li>
+    <li><a class="active" href="#">Актуално</a></li>
+  </ul>
+</div><!-- /.breadcrumbs -->
 <div class="blog page-section--blog">
 	<div class="wrapper">
-		<h2 class="project--title">Последни новини</h2><!-- /.project--title -->
+		<h2 class="project--title">Актуално и етапи на строеж</h2><!-- /.project--title -->
 
-		<a href="#">
+		<a href="single-post.html">
 			<div class="blog__last-new">
 				<div class="blog__last-new--photo">
 					<picture>
 						<img src="assets/images/news.jpg" alt="news">
 					</picture>
 				</div><!-- /.blog__last-new--photo -->
-	
+
 				<div class="blog__last-new--info">
 					<div class="blog__last-new--infos">
 						<h4>Строителство</h4>
-	
+
 						<h2>Нов Етап на сроителство - Морска звезда</h2>
-	
+
 						<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
 						
 						<h4>17 Март 2020</h4>
@@ -239,8 +94,8 @@
 		</a>
 
 		<div class="blog__grid">
-			<div class="blog__grid--news">
-				<a href="#">
+			<div class="blog__grid--news blogBox moreBox">
+				<a href="single-post.html">
 					<div class="blog__grid--news--photo">
 						<img src="assets/images/news2.jpg" alt="news2">
 					</div><!-- /.blog__grid--news--photo -->
@@ -257,7 +112,7 @@
 				</a>
 			</div><!-- /.blog__grid--news -->
 			
-			<div class="blog__grid--news">
+			<div class="blog__grid--news blogBox moreBox">
 				<a href="#">
 					<div class="blog__grid--news--photo">
 						<img src="assets/images/news3.jpg" alt="news3">
@@ -275,7 +130,7 @@
 				</a>
 			</div><!-- /.blog__grid--news -->
 
-			<div class="blog__grid--news">
+			<div class="blog__grid--news blogBox moreBox">
 				<a href="#">
 					<div class="blog__grid--news--photo">
 						<img src="assets/images/news4.jpg" alt="news4">
@@ -293,7 +148,7 @@
 				</a>
 			</div><!-- /.blog__grid--news -->
 
-			<div class="blog__grid--news">
+			<div class="blog__grid--news blogBox moreBox">
 				<a href="#">
 					<div class="blog__grid--news--photo">
 						<img src="assets/images/news5.jpg" alt="news5">
@@ -311,7 +166,7 @@
 				</a>
 			</div><!-- /.blog__grid--news -->
 
-			<div class="blog__grid--news">
+			<div class="blog__grid--news blogBox moreBox">
 				<a href="#">
 					<div class="blog__grid--news--photo">
 						<img src="assets/images/news6.jpg" alt="news6">
@@ -329,7 +184,7 @@
 				</a>
 			</div><!-- /.blog__grid--news -->
 
-			<div class="blog__grid--news">
+			<div class="blog__grid--news blogBox moreBox">
 				<a href="#">
 					<div class="blog__grid--news--photo">
 						<img src="assets/images/news7.jpg" alt="news7">
@@ -345,11 +200,65 @@
 						<h4>17 Март 2020</h4>
 					</div><!-- /.blog__grid--news--desc -->
 				</a>
-			</div><!-- /.blog__grid--news -->
+      </div><!-- /.blog__grid--news -->
+      
+      <div class="blog__grid--news blogBox moreBox2">
+				<a href="#">
+					<div class="blog__grid--news--photo">
+						<img src="assets/images/news7.jpg" alt="news7">
+					</div><!-- /.blog__grid--news--photo -->
+
+					<div class="blog__grid--news--desc">
+						<h4>Строителство</h4>
+
+						<h2>Нов Етап на сроителство - Морска звезда</h2>
+						
+						<p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+						
+						<h4>17 Март 2020</h4>
+					</div><!-- /.blog__grid--news--desc -->
+				</a>
+      </div><!-- /.blog__grid--news -->
+      
+      <div class="blog__grid--news blogBox moreBox2">
+				<a href="#">
+					<div class="blog__grid--news--photo">
+						<img src="assets/images/news7.jpg" alt="news7">
+					</div><!-- /.blog__grid--news--photo -->
+
+					<div class="blog__grid--news--desc">
+						<h4>Строителство</h4>
+
+						<h2>Нов Етап на сроителство - Морска звезда</h2>
+						
+						<p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+						
+						<h4>17 Март 2020</h4>
+					</div><!-- /.blog__grid--news--desc -->
+				</a>
+      </div><!-- /.blog__grid--news -->
+      
+      <div class="blog__grid--news blogBox moreBox2">
+				<a href="#">
+					<div class="blog__grid--news--photo">
+						<img src="assets/images/news7.jpg" alt="news7">
+					</div><!-- /.blog__grid--news--photo -->
+
+					<div class="blog__grid--news--desc">
+						<h4>Строителство</h4>
+
+						<h2>Нов Етап на сроителство - Морска звезда</h2>
+						
+						<p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+						
+						<h4>17 Март 2020</h4>
+					</div><!-- /.blog__grid--news--desc -->
+				</a>
+      </div><!-- /.blog__grid--news -->
 		</div><!-- /.blog__grid -->
 
-		<div class="blog__grid--more">
-			<a href="blog.html" class="btn btn--blue">Повече от актуално</a><!-- /.btn btn--blue -->
+		<div id="loadMore" class="blog__grid--more">
+			<a href="#" class="btn btn--blue">Повече от актуално</a><!-- /.btn btn--blue -->
 		</div><!-- /.blog__grid--more -->
 	</div><!-- /.wrapper -->
 </div><!-- /.blog page-section--blog -->
