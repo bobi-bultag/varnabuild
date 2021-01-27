@@ -17,7 +17,9 @@
 	<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-<link href="styles.b094e1186db7865c7108.css" rel="stylesheet"></head>
+	<link rel="stylesheet" href="assets/styles/modules/magnific-popup.css">
+	<script src="assets/scripts/modules/jquery.magnific-popup.js"></script>
+<link href="styles.b675a48d3bb934f9aa5a.css" rel="stylesheet"></head>
 <body>
 <header class="h">
   <picture>
@@ -26,12 +28,11 @@
 
   <div class="h__clouds"></div><!-- /.h__clouds -->
 
-	<div class="wrapper">
-		<div class="h__logo">
-			<a href="index.html">
-				<img src="assets/images/VarnaBuild-logo.png" alt="varna-build-logo">
-			</a>
-		</div><!-- /.h__logo -->
+	<div class="shell">
+		<a class="h__logo" href="index.html">
+			<source srcset="assets/images/VarnaBuild-logo.svg" media="(min-width: 767px)">
+			<img loading="lazy" src="assets/images/VarnaBuild-logo.svg" alt="varna-build-logo" />
+		</a><!-- /.h__logo -->
 	
 		<div class="h__menu-icon">
 			<div class="h__menu-icon__middle"></div><!--/.h__menu-icon__middle-->
@@ -61,183 +62,257 @@
 		</div><!-- /.h__content -->
 	
 		<a class="h__menu-call" href="tel:+359884606014">+359 884 606014</a><!--/.h__menu-call-->
-	</div><!-- /.wrapper -->
+	</div><!-- /.shell -->
 </header><!-- /.h -->
-<div class="breadcrumbs-nav">
-  <ul class="breadcrumbs-nav__breadcrumb">
-    <li><a href="index.html">Начало</a></li>
-    <li><a class="active" href="#">Галерия</a></li>
-  </ul>
-</div><!-- /.breadcrumbs -->
-<div class="gallery">
-  <div class="wrapper">
-    <div class="gallery__content">
-      <div class="gallery__content--box">
-        <h2>Жилищна сграда “Морска звезда”</h2>
+<main class="main">
+	<section class="breadcrumbs-nav">
+		<ul class="breadcrumbs-nav__breadcrumb">
+			<li><a href="index.html">Начало</a></li>
+			<li><a class="active" href="#">Галерия</a></li>
+		</ul>
+	</section><!-- /.breadcrumbs -->
+	<section class="gallery page-section--gallery">
+		<div class="shell">
+			<div class="gallery__content">
+				<div class="gallery__content--box">
+					<h2 class="title-after--smaller">Жилищна сграда “Морска звезда”</h2>
+	
+					<h4>кв. Виница, ул. “Морска Звезда” 2</h4>
+	
+					<div class="popup-gallery">
+						<div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
+							<div class="carousel-cell">
+								<a href="assets/images/gallery.jpg" title="gallery">
+									<img src="assets/images/gallery.jpg" alt="gallery">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery2.jpg" title="gallery2">
+									<img src="assets/images/gallery2.jpg" alt="gallery2">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery3.jpg" title="gallery3">
+									<img src="assets/images/gallery3.jpg" alt="gallery3">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery.jpg" title="gallery">
+									<img src="assets/images/gallery.jpg" alt="gallery">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery2.jpg" title="gallery2">
+									<img src="assets/images/gallery2.jpg" alt="gallery2">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery3.jpg" title="gallery3">
+									<img src="assets/images/gallery3.jpg" alt="gallery3">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery.jpg" title="gallery">
+									<img src="assets/images/gallery.jpg" alt="gallery">
+								</a>
+							</div>
+						</div>
+					</div><!-- /.popup-gallery -->
+	
+					<div class="read-more">
+						<a href="single-project-whit-map.html" class="btn btn--blue">Виж повече за проекта</a><!-- /.btn btn--blue -->
+					</div><!-- /.read-more -->
+				</div><!-- /.gallery__content--box -->
+	
+				<div class="gallery__content--box">
+					<h2 class="title-after--smaller">Жилищна сграда “Константин Павлов”</h2>
+	
+					<h4>ул. “Константин Павлов” 18</h4>
+	
+					<div class="popup-gallery">
+						<div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
+							<div class="carousel-cell">
+								<a href="assets/images/gallery4.jpg" title="gallery4">
+									<img src="assets/images/gallery4.jpg" alt="gallery4">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery5.jpg" title="gallery5">
+									<img src="assets/images/gallery5.jpg" alt="gallery5">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery6.jpg" title="gallery6">
+									<img src="assets/images/gallery6.jpg" alt="gallery6">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery4.jpg" title="gallery4">
+									<img src="assets/images/gallery4.jpg" alt="gallery4">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery5.jpg" title="gallery5">
+									<img src="assets/images/gallery5.jpg" alt="gallery5">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery6.jpg" title="gallery6">
+									<img src="assets/images/gallery6.jpg" alt="gallery6">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery4.jpg" title="gallery4">
+									<img src="assets/images/gallery4.jpg" alt="gallery4">
+								</a>
+							</div>
+						</div>
+					</div><!-- /.popup-gallery -->
+	
+					<div class="read-more">
+						<a href="single-project.html" class="btn btn--blue">Виж повече за проекта</a><!-- /.btn btn--blue -->
+					</div><!-- /.read-more -->
+				</div><!-- /.gallery__content--box -->
+	
+				<div class="gallery__content--box">
+					<h2 class="title-after--smaller">Жилищна сграда “Константин Щъркелов”</h2>
+	
+					<h4>ул. “Константин Щъркелов” 6</h4>
+	
+					<div class="popup-gallery">
+						<div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
+							<div class="carousel-cell">
+								<a href="assets/images/gallery7.jpg" title="gallery7">
+									<img src="assets/images/gallery7.jpg" alt="gallery7">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery8.jpg" title="gallery8">
+									<img src="assets/images/gallery8.jpg" alt="gallery8">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery9.jpg" title="gallery9">
+									<img src="assets/images/gallery9.jpg" alt="gallery9">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery7.jpg" title="gallery7">
+									<img src="assets/images/gallery7.jpg" alt="gallery7">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery8.jpg" title="gallery8">
+									<img src="assets/images/gallery8.jpg" alt="gallery8">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery9.jpg" title="gallery9">
+									<img src="assets/images/gallery9.jpg" alt="gallery9">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery7.jpg" title="gallery7">
+									<img src="assets/images/gallery7.jpg" alt="gallery7">
+								</a>
+							</div>
+						</div>
+					</div><!-- /.popup-gallery -->
+	
+					<div class="read-more">
+						<a href="#" class="btn btn--blue">Виж повече за проекта</a><!-- /.btn btn--blue -->
+					</div><!-- /.read-more -->
+				</div><!-- /.gallery__content--box -->
+	
+				<div class="gallery__content--box">
+					<h2 class="title-after--smaller">Жилищна сграда “Черно море”</h2>
+	
+					<h4>кв. Виница, ул. „Черно море“ 5</h4>
+	
+					<div class="popup-gallery">
+						<div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
+							<div class="carousel-cell">
+								<a href="assets/images/gallery10.jpg" title="gallery10">
+									<img src="assets/images/gallery10.jpg" alt="gallery10">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery11.jpg" title="gallery11">
+									<img src="assets/images/gallery11.jpg" alt="gallery11">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery12.jpg" title="gallery12">
+									<img src="assets/images/gallery12.jpg" alt="gallery12">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery10.jpg" title="gallery10">
+									<img src="assets/images/gallery10.jpg" alt="gallery10">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery11.jpg" title="gallery11">
+									<img src="assets/images/gallery11.jpg" alt="gallery11">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery12.jpg" title="gallery12">
+									<img src="assets/images/gallery12.jpg" alt="gallery12">
+								</a>
+							</div>
+		
+							<div class="carousel-cell">
+								<a href="assets/images/gallery10.jpg" title="gallery10">
+									<img src="assets/images/gallery10.jpg" alt="gallery10">
+								</a>
+							</div>
+						</div>
+					</div><!-- /.popup-gallery -->
+	
+					<div class="read-more">
+						<a href="#" class="btn btn--blue">Виж повече за проекта</a><!-- /.btn btn--blue -->
+					</div><!-- /.read-more -->
+				</div><!-- /.gallery__content--box -->
+			</div><!-- /.gallery__content -->
+		</div><!-- /.shell -->
 
-        <h4>кв. Виница, ул. “Морска Звезда” 2</h4>
+		<svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-left-gallery c1" xmlns="http://www.w3.org/2000/svg">
+			<path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M125.85 139.396C136.16 150.816 136.16 168.184 125.85 179.604L0 319L0 0L125.85 139.396Z" fill=""/>
+		</svg>
 
-        <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
-          <div class="carousel-cell">
-            <img src="assets/images/gallery.jpg" alt="gallery">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery2.jpg" alt="gallery2">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery3.jpg" alt="gallery3">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery.jpg" alt="gallery">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery2.jpg" alt="gallery2">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery3.jpg" alt="gallery3">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery.jpg" alt="gallery">
-          </div>
-        </div>
-
-        <div class="read-more">
-          <a href="single-project-whit-map.html" class="btn btn--blue">Виж повече за проекта</a><!-- /.btn btn--blue -->
-        </div><!-- /.read-more -->
-      </div><!-- /.gallery__content--box -->
-
-      <div class="gallery__content--box">
-        <h2>Жилищна сграда “Константин Павлов”</h2>
-
-        <h4>ул. “Константин Павлов” 18</h4>
-
-        <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
-          <div class="carousel-cell">
-            <img src="assets/images/gallery4.jpg" alt="gallery4">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery5.jpg" alt="gallery5">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery6.jpg" alt="gallery6">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery4.jpg" alt="gallery4">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery5.jpg" alt="gallery5">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery6.jpg" alt="gallery6">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery4.jpg" alt="gallery4">
-          </div>
-        </div>
-
-        <div class="read-more">
-          <a href="single-project.html" class="btn btn--blue">Виж повече за проекта</a><!-- /.btn btn--blue -->
-        </div><!-- /.read-more -->
-      </div><!-- /.gallery__content--box -->
-
-      <div class="gallery__content--box">
-        <h2>Жилищна сграда “Константин Щъркелов”</h2>
-
-        <h4>ул. “Константин Щъркелов” 6</h4>
-
-        <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
-          <div class="carousel-cell">
-            <img src="assets/images/gallery7.jpg" alt="gallery7">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery8.jpg" alt="gallery8">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery9.jpg" alt="gallery9">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery7.jpg" alt="gallery7">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery8.jpg" alt="gallery8">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery9.jpg" alt="gallery9">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery7.jpg" alt="gallery7">
-          </div>
-        </div>
-
-        <div class="read-more">
-          <a href="#" class="btn btn--blue">Виж повече за проекта</a><!-- /.btn btn--blue -->
-        </div><!-- /.read-more -->
-      </div><!-- /.gallery__content--box -->
-
-      <div class="gallery__content--box">
-        <h2>Жилищна сграда “Черно море”</h2>
-
-        <h4>кв. Виница, ул. „Черно море“ 5</h4>
-
-        <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
-          <div class="carousel-cell">
-            <img src="assets/images/gallery10.jpg" alt="gallery10">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery11.jpg" alt="gallery11">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery12.jpg" alt="gallery12">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery10.jpg" alt="gallery10">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery11.jpg" alt="gallery11">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery12.jpg" alt="gallery12">
-          </div>
-
-          <div class="carousel-cell">
-            <img src="assets/images/gallery10.jpg" alt="gallery10">
-          </div>
-        </div>
-
-        <div class="read-more">
-          <a href="#" class="btn btn--blue">Виж повече за проекта</a><!-- /.btn btn--blue -->
-        </div><!-- /.read-more -->
-      </div><!-- /.gallery__content--box -->
-    </div><!-- /.gallery__content -->
-  </div><!-- /.wrapper -->
-</div><!-- /.gallery -->
-<div class="contacts page-section--contacrs">
-	<div class="wrapper">
+		<svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-left-gallery c2" xmlns="http://www.w3.org/2000/svg">
+			<path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M91.8869 101.911C102.179 113.326 102.179 130.674 91.8869 142.089L0 244L0 0L91.8869 101.911Z" fill=""/>
+		</svg>
+	</section><!-- /.gallery -->
+</main><!-- /.main -->
+<section class="contacts page-section--contacts">
+	<div class="shell">
 		<div class="contacts__content">
-			<h2 class="contacts__title">Свържете се с нас</h2><!-- /.contacts__title -->
+			<h2 class="contacts__title title-after--smaller-c">Свържете се с нас</h2><!-- /.contacts__title -->
 
 			<div class="contacts__boxs">
 				<div class="contacts__boxs--box">
@@ -277,10 +352,26 @@
 				</form>
 			</div><!-- /.contacts__form -->
 		</div><!-- /.contacts__content -->
-	</div><!-- /.wrapper -->
-</div><!-- /.contacts page-section--contacrs -->
-<div class="widget page-section--widget">
-	<div class="wrapper">
+	</div><!-- /.shell -->
+
+	<svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-left c1" xmlns="http://www.w3.org/2000/svg">
+		<path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M125.85 139.396C136.16 150.816 136.16 168.184 125.85 179.604L0 319L0 0L125.85 139.396Z" fill=""/>
+	</svg>
+
+	<svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-left c2" xmlns="http://www.w3.org/2000/svg">
+		<path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M91.8869 101.911C102.179 113.326 102.179 130.674 91.8869 142.089L0 244L0 0L91.8869 101.911Z" fill=""/>
+	</svg>
+
+	<svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-right c1" xmlns="http://www.w3.org/2000/svg">
+		<path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M8.14997 139.396C-2.15995 150.816 -2.15994 168.184 8.14998 179.604L134 319L134 0L8.14997 139.396Z" fill=""/>
+	</svg>
+
+	<svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-right c2" xmlns="http://www.w3.org/2000/svg">
+		<path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M8.11313 101.911C-2.17933 113.326 -2.17933 130.674 8.11314 142.089L100 244L100 0L8.11313 101.911Z" fill=""/>
+	</svg>
+</section><!-- /.contacts page-section--contacts -->
+<section class="widget page-section--widget">
+	<div class="shell">
 		<div class="widget__content">
 			<div class="widget__content--column">
 				<div class="widget__content--b-line">
@@ -299,11 +390,11 @@
 
 			<div class="widget__content--column">
 				<div class="widget__content--b-line">
-					<a href="#">Текущи проекти</a>
+					<a href="project.html">Текущи проекти</a>
 				</div><!-- /.widget__content--b-line -->
 
 				<div class="widget__content--b-line">
-					<a href="#">Завършени проекти</a>
+					<a href="project.html">Завършени проекти</a>
 				</div><!-- /.widget__content--b-line -->
 
 				<div class="widget__content--b-line">
@@ -320,36 +411,36 @@
 			</div><!-- /.widget__content--column -->
 
 			<div class="widget__content--column">
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Продажби:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="tel:+359884 606014">+359 884 606014</a>
+					<a class="blue-zoom" href="tel:+359884 606014">+359 884 606014</a>
 					<p class="widget__content--b-margin">/Диана Петкова/</p>
 				</div><!-- /.widget__content--b-line -->
 
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Имейл:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="mailto:office@varnabuild.com">office@varnabuild.com</a>
+					<a class="blue-zoom" href="mailto:office@varnabuild.com">office@varnabuild.com</a>
 				</div>
 			</div><!-- /.widget__content--column -->
 
 			<div class="widget__content--column">
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Управител:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="tel:+359888 737489">+359 888 737489</a>
+					<a class="blue-zoom" href="tel:+359888 737489">+359 888 737489</a>
 
 					<p class="widget__content--b-margin">/Николай Пантелеев/</p>
 				</div><!-- /.widget__content--b-line -->
 
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Офис:</p>
 				</div><!-- /.widget__content--b-line -->
 
@@ -358,14 +449,14 @@
 				</div>
 			</div><!-- /.widget__content--column -->
 		</div><!-- /.widget__content -->
-	</div><!-- /.wrapper -->
-</div><!-- /.widget page-section--widget -->
+	</div><!-- /.shell -->
+</section><!-- /.widget page-section--widget -->
 <footer class="f page-section--f">
-	<div class="wrapper">
+	<div class="shell">
 		<p class="f__left">&copy; 2020 „Варна Билд Имоти” ЕООД, Всички права запазени.</p><!--/.f__left-->
 
 	<p class="f__right">Изработка на сайт и дизйн  <a href="https://bultag.com/"><img src="assets/images/bultag-logo.png" alt="bultag-logo"></a></p><!--/.f__right-->
-	</div><!-- /.wrapper -->
+	</div><!-- /.shell -->
 </footer><!--/.f .page-section--f-->
-<script type="text/javascript" src="main.b094e1186db7865c7108.js"></script></body>
+<script type="text/javascript" src="main.b675a48d3bb934f9aa5a.js"></script></body>
 </html>

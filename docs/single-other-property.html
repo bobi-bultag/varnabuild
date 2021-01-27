@@ -17,7 +17,9 @@
 	<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-<link href="styles.b094e1186db7865c7108.css" rel="stylesheet"></head>
+  <link rel="stylesheet" href="assets/styles/modules/magnific-popup.css">
+	<script src="assets/scripts/modules/jquery.magnific-popup.js"></script>
+<link href="styles.b675a48d3bb934f9aa5a.css" rel="stylesheet"></head>
 <body>
 <header class="h">
   <picture>
@@ -26,12 +28,11 @@
 
   <div class="h__clouds"></div><!-- /.h__clouds -->
 
-	<div class="wrapper">
-		<div class="h__logo">
-			<a href="index.html">
-				<img src="assets/images/VarnaBuild-logo.png" alt="varna-build-logo">
-			</a>
-		</div><!-- /.h__logo -->
+	<div class="shell">
+		<a class="h__logo" href="index.html">
+			<source srcset="assets/images/VarnaBuild-logo.svg" media="(min-width: 767px)">
+			<img loading="lazy" src="assets/images/VarnaBuild-logo.svg" alt="varna-build-logo" />
+		</a><!-- /.h__logo -->
 	
 		<div class="h__menu-icon">
 			<div class="h__menu-icon__middle"></div><!--/.h__menu-icon__middle-->
@@ -61,251 +62,277 @@
 		</div><!-- /.h__content -->
 	
 		<a class="h__menu-call" href="tel:+359884606014">+359 884 606014</a><!--/.h__menu-call-->
-	</div><!-- /.wrapper -->
+	</div><!-- /.shell -->
 </header><!-- /.h -->
-<div class="breadcrumbs-nav">
-  <ul class="breadcrumbs-nav__breadcrumb">
-    <li><a href="index.html">Начало</a></li>
-    <li><a href="other-property.html">Други имоти</a></li>
-    <li><a class="active" href="#">Тристаен апартамент</a></li>
-  </ul>
-</div><!-- /.breadcrumbs -->
-<div class="single-other-property">
-  <div class="wrapper">
-    <div class="single-other-property__info">
-      <div class="gallery">
-        <div class="gallery__content">
-          <div class="gallery__content--box">
-            <div class="single-other-property__desc">
-              <div class="single-other-property__desc--left">
-                <h2>Тристаен апартамент</h2>
-    
-                <h4>гр. Варна, кв. Чайка, ул. “Непозната”</h4>
-              </div><!-- /.single-property__desc--left -->
-            
-              <div class="single-other-property__desc--right">
-                <span>
-                  <span>Квадратура: </span>
-                  <span class="blue">98 м2</span>
-                </span>
-                  
-                <span>
-                  <span>Стаи: </span>
-                  <span class="blue">3</span>
-                </span>
-
-                <span>
-                  <span>Етаж:</span>
-                  <span class="blue"> 5 от 6</span>
-                </span>
-
-                <span>
-                  <span>Вид стр.:</span>
-                  <span class="blue"> Тухла</span>
-                </span>
-
-                <span>
-                  <span>Год. на стр.:</span>
-                  <span class="blue"> 1990 г.</span>
-                </span>
-
-                <span>
-                  <span class="price">83 000 EUR</span>
-                </span>
-              </div><!-- /.single-property__desc--right -->
-            </div><!-- /.single-property__desc -->
-    
-            <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "groupCells": true }' }'>
-              <div class="carousel-cell">
-                <img src="assets/images/oth-prop.jpg" alt="oth-prop">
-              </div>
-    
-              <div class="carousel-cell">
-                <img src="assets/images/oth-prop1.jpg" alt="oth-prop1">
-              </div>
-    
-              <div class="carousel-cell">
-                <img src="assets/images/oth-prop3.jpg" alt="oth-prop2">
-              </div>
-    
-              <div class="carousel-cell">
-                <img src="assets/images/oth-prop.jpg" alt="oth-prop">
-              </div>
-    
-              <div class="carousel-cell">
-                <img src="assets/images/oth-prop1.jpg" alt="oth-prop1">
-              </div>
-    
-              <div class="carousel-cell">
-                <img src="assets/images/oth-prop3.jpg" alt="oth-prop2">
-              </div>
-    
-              <div class="carousel-cell">
-                <img src="assets/images/oth-prop.jpg" alt="oth-prop">
-              </div>
+<main class="main">
+  <section class="breadcrumbs-nav">
+    <ul class="breadcrumbs-nav__breadcrumb">
+      <li><a href="index.html">Начало</a></li>
+      <li><a href="other-property.html">Други имоти</a></li>
+      <li><a class="active" href="#">Тристаен апартамент</a></li>
+    </ul>
+  </section><!-- /.breadcrumbs -->
+  <section class="single-other-property page-section--single-other-property">
+    <div class="shell">
+      <div class="single-other-property__info">
+        <div class="gallery">
+          <div class="gallery__content">
+            <div class="gallery__content--box">
+              <div class="single-other-property__desc">
+                <div class="single-other-property__desc--left">
+                  <h2 class="title-after--smaller">Тристаен апартамент</h2>
+      
+                  <h4>гр. Варна, кв. Чайка, ул. “Непозната”</h4>
+                </div><!-- /.single-property__desc--left -->
+              
+                <div class="single-other-property__desc--right">
+                  <span>
+                    <span>Квадратура: </span>
+                    <span class="blue">98 м2</span>
+                  </span>
+                    
+                  <span>
+                    <span>Стаи: </span>
+                    <span class="blue">3</span>
+                  </span>
+  
+                  <span>
+                    <span>Етаж:</span>
+                    <span class="blue"> 5 от 6</span>
+                  </span>
+  
+                  <span>
+                    <span>Вид стр.:</span>
+                    <span class="blue"> Тухла</span>
+                  </span>
+  
+                  <span>
+                    <span>Год. на стр.:</span>
+                    <span class="blue"> 1990 г.</span>
+                  </span>
+  
+                  <span>
+                    <span class="price">83 000 EUR</span>
+                  </span>
+                </div><!-- /.single-property__desc--right -->
+              </div><!-- /.single-property__desc -->
+      
+              <div class="popup-gallery">
+                <div class="carousel" data-flickity='{ "contain": true, "pageDots": false, "groupCells": true }' }'>
+                  <div class="carousel-cell">
+                    <a href="assets/images/oth-prop.jpg" title="oth-prop">
+                      <img src="assets/images/oth-prop.jpg" alt="oth-prop">
+                    </a>
+                  </div>
+        
+                  <div class="carousel-cell">
+                    <a href="assets/images/oth-prop1.jpg" title="oth-prop1">
+                      <img src="assets/images/oth-prop1.jpg" alt="oth-prop1">
+                    </a>
+                  </div>
+        
+                  <div class="carousel-cell">
+                    <a href="assets/images/oth-prop3.jpg" title="oth-prop3">
+                      <img src="assets/images/oth-prop3.jpg" alt="oth-prop3">
+                    </a>
+                  </div>
+        
+                  <div class="carousel-cell">
+                    <a href="assets/images/oth-prop.jpg" title="oth-prop">
+                      <img src="assets/images/oth-prop.jpg" alt="oth-prop">
+                    </a>
+                  </div>
+        
+                  <div class="carousel-cell">
+                    <a href="assets/images/oth-prop1.jpg" title="oth-prop1">
+                      <img src="assets/images/oth-prop1.jpg" alt="oth-prop1">
+                    </a>
+                  </div>
+        
+                  <div class="carousel-cell">
+                    <a href="assets/images/oth-prop3.jpg" title="oth-prop3">
+                      <img src="assets/images/oth-prop3.jpg" alt="oth-prop3">
+                    </a>
+                  </div>
+        
+                  <div class="carousel-cell">
+                    <a href="assets/images/oth-prop.jpg" title="oth-prop">
+                      <img src="assets/images/oth-prop.jpg" alt="oth-prop">
+                    </a>
+                  </div>
+                </div>
+              </div><!-- /.popup-gallery -->
             </div>
           </div>
-        </div>
-      </div><!-- /.gallery -->
+        </div><!-- /.gallery -->
+  
+        <div class="single-other-property__about">
+          <p>ТУХЛА, РЕАЛНА КВАДРАТУРА! Предлагаме просторен панорамен апартамент в най-предпочитания квартал на града. Жилището се състои от кухня-трапезария, хол, две спални, баня-тоалет, тоалет, две тераси, коридор, маза. Апартаментът се предлага в отлично състояние, поддържан. Изложение изток/запад, слънчев и топъл, без крайни стени. На минути пеша от Морската градина, в непосредствена близост до училище, детска градина, пазар, спирка на градския транспорт. Широко околоблоково пространство с много зеленина и възможност за лесно паркиране.</p>
+          
+          <a href="#" class="btn btn--blue">Вижте локация</a>
+        </div><!-- /.single-other-property__about -->
+      </div><!-- /.single-other-property__info -->
+      <div class="other-property__boxs">
+        <div class="single-project__more-build other-property__more-build">
+          <h2 class="big">Още от имоти в продажба предлагани  от VarnaBuild</h2>
+  
+          <div class="portfolio section">
+            <div class="container">
+              <div class="filters-content">
+                <div class="carousel" data-flickity='{ "contain": true, "pageDots": false, "autoPlay": 4500, "prevNextButtons": false, "groupCells": true }'>
+                    <div class="carousel-cell">
+                      <a href="#">
+                        <div class="item">
+                          <div class="item-photo">
+                            <img src="assets/images/prop.jpg" alt="prop">
+                          </div><!-- /.item-photo -->
+      
+                          <div class="p-inner">
+                            <div class="price">
+                              <span>60 000 EUR</span>
+                            </div><!-- /.price -->
+  
+                            <h4>Офис в бизнес сграда</h4>
+      
+                            <div class="cat">
+                              <p>Гр. Варна, ул. “Непозната”</p>
+                              <p>Квадратура: 59 м2</p>
+                            </div><!-- /.cat -->
+                          </div><!-- /.p-inner -->
+                        </div><!-- /.item -->
+                      </a>
+                    </div><!-- /.carousel-cell -->
+                    <div class="carousel-cell">
+                      <a href="#">
+                        <div class="item">
+                          <div class="item-photo">
+                            <img src="assets/images/prop1.jpg" alt="prop2">
+                          </div><!-- /.item-photo -->
+      
+                          <div class="p-inner">
+                            <div class="price">
+                              <span>83 000 EUR</span>
+                            </div><!-- /.price -->
+  
+                            <h4>Тристаен апартамент</h4>
+      
+                            <div class="cat">
+                              <p>Гр. Варна, кв. Чайка</p>
+                              <p>Квадратура: 98 м2</p>
+                            </div><!-- /.cat -->
+                          </div><!-- /.p-inner -->
+                        </div><!-- /.item -->
+                      </a>
+                    </div><!-- /.carousel-cell -->
+                    <div class="carousel-cell">
+                      <a href="#">
+                        <div class="item">
+                          <div class="item-photo">
+                            <img src="assets/images/prop1.jpg" alt="prop">
+                          </div><!-- /.item-photo -->
+      
+                          <div class="p-inner">
+                            <div class="price">
+                              <span>83 000 EUR</span>
+                            </div><!-- /.price -->
+  
+                            <h4>Тристаен апартамент</h4>
+      
+                            <div class="cat">
+                              <p>Гр. Варна, кв. Чайка</p>
+                              <p>Квадратура: 98 м2</p>
+                            </div><!-- /.cat -->
+                          </div><!-- /.p-inner -->
+                        </div><!-- /.item -->
+                      </a>
+                    </div><!-- /.carousel-cell -->
+                    <div class="carousel-cell">
+                      <a href="#">
+                        <div class="item">
+                          <div class="item-photo">
+                            <img src="assets/images/prop.jpg" alt="prop">
+                          </div><!-- /.item-photo -->
+      
+                          <div class="p-inner">
+                            <div class="price">
+                              <span>83 000 EUR</span>
+                            </div><!-- /.price -->
+  
+                            <h4>Тристаен апартамент</h4>
+      
+                            <div class="cat">
+                              <p>Гр. Варна, кв. Чайка</p>
+                              <p>Квадратура: 98 м2</p>
+                            </div><!-- /.cat -->
+                          </div><!-- /.p-inner -->
+                        </div><!-- /.item -->
+                      </a>
+                    </div><!-- /.carousel-cell -->
+                    <div class="carousel-cell">
+                      <a href="#">
+                        <div class="item">
+                          <div class="item-photo">
+                            <img src="assets/images/prop1.jpg" alt="prop1">
+                          </div><!-- /.item-photo -->
+      
+                          <div class="p-inner">
+                            <div class="price">
+                              <span>83 000 EUR</span>
+                            </div><!-- /.price -->
+  
+                            <h4>Тристаен апартамент</h4>
+      
+                            <div class="cat">
+                              <p>Гр. Варна, кв. Чайка</p>
+                              <p>Квадратура: 98 м2</p>
+                            </div><!-- /.cat -->
+                          </div><!-- /.p-inner -->
+                        </div><!-- /.item -->
+                      </a>
+                    </div><!-- /.carousel-cell -->
+                    <div class="carousel-cell">
+                      <a href="#">
+                        <div class="item">
+                          <div class="item-photo">
+                            <img src="assets/images/prop.jpg" alt="prop">
+                          </div><!-- /.item-photo -->
+      
+                          <div class="p-inner">
+                            <div class="price">
+                              <span>60 000 EUR</span>
+                            </div><!-- /.price -->
+  
+                            <h4>Офис в бизнес сграда</h4>
+      
+                            <div class="cat">
+                              <p>Гр. Варна, ул. “Непозната”</p>
+                              <p>Квадратура: 59 м2</p>
+                            </div><!-- /.cat -->
+                          </div><!-- /.p-inner -->
+                        </div><!-- /.item -->
+                      </a>
+                    </div><!-- /.carousel-cell -->
+                  </div><!-- /.carousel -->
+              </div><!-- /.filters-content-->
+            </div><!-- /.container -->
+          </div><!-- /.portfolio section -->
+        </div><!-- /.single-project__more-build -->
+      </div><!-- /.other-property__box-content -->
+    </div><!-- /.shell -->
 
-      <div class="single-other-property__about">
-        <p>ТУХЛА, РЕАЛНА КВАДРАТУРА! Предлагаме просторен панорамен апартамент в най-предпочитания квартал на града. Жилището се състои от кухня-трапезария, хол, две спални, баня-тоалет, тоалет, две тераси, коридор, маза. Апартаментът се предлага в отлично състояние, поддържан. Изложение изток/запад, слънчев и топъл, без крайни стени. На минути пеша от Морската градина, в непосредствена близост до училище, детска градина, пазар, спирка на градския транспорт. Широко околоблоково пространство с много зеленина и възможност за лесно паркиране.</p>
-        
-        <a href="#" class="btn btn--blue">Вижте локация</a>
-      </div><!-- /.single-other-property__about -->
-    </div><!-- /.single-other-property__info -->
-    <div class="other-property__boxs">
-      <div class="single-project__more-build">
-        <h2 class="big">Още от имоти в продажба предлагани  от VarnaBuild</h2>
+    <svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-left-s-other-property c1" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M125.85 139.396C136.16 150.816 136.16 168.184 125.85 179.604L0 319L0 0L125.85 139.396Z" fill=""/>
+      </svg>
 
-        <div class="portfolio section">
-          <div class="container">
-            <div class="filters-content">
-              <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "autoPlay": true, "prevNextButtons": false, "groupCells": true }'>
-                  <div class="carousel-cell">
-                    <a href="#">
-                      <div class="item">
-                        <div class="item-photo">
-                          <img src="assets/images/prop.jpg" alt="prop">
-                        </div><!-- /.item-photo -->
-    
-                        <div class="p-inner">
-													<div class="price">
-														<span>60 000 EUR</span>
-													</div><!-- /.price -->
-
-                          <h4>Офис в бизнес сграда</h4>
-    
-                          <div class="cat">
-                            <p>Гр. Варна, ул. “Непозната”</p>
-                            <p>Квадратура: 59 м2</p>
-                          </div><!-- /.cat -->
-                        </div><!-- /.p-inner -->
-                      </div><!-- /.item -->
-                    </a>
-                  </div><!-- /.carousel-cell -->
-                  <div class="carousel-cell">
-                    <a href="#">
-                      <div class="item">
-                        <div class="item-photo">
-                          <img src="assets/images/prop1.jpg" alt="prop2">
-                        </div><!-- /.item-photo -->
-    
-                        <div class="p-inner">
-													<div class="price">
-														<span>83 000 EUR</span>
-													</div><!-- /.price -->
-
-                          <h4>Тристаен апартамент</h4>
-    
-                          <div class="cat">
-                            <p>Гр. Варна, кв. Чайка</p>
-                            <p>Квадратура: 98 м2</p>
-                          </div><!-- /.cat -->
-                        </div><!-- /.p-inner -->
-                      </div><!-- /.item -->
-                    </a>
-                  </div><!-- /.carousel-cell -->
-                  <div class="carousel-cell">
-                    <a href="#">
-                      <div class="item">
-                        <div class="item-photo">
-                          <img src="assets/images/prop1.jpg" alt="prop">
-                        </div><!-- /.item-photo -->
-    
-                        <div class="p-inner">
-													<div class="price">
-														<span>83 000 EUR</span>
-													</div><!-- /.price -->
-
-                          <h4>Тристаен апартамент</h4>
-    
-                          <div class="cat">
-                            <p>Гр. Варна, кв. Чайка</p>
-                            <p>Квадратура: 98 м2</p>
-                          </div><!-- /.cat -->
-                        </div><!-- /.p-inner -->
-                      </div><!-- /.item -->
-                    </a>
-                  </div><!-- /.carousel-cell -->
-                  <div class="carousel-cell">
-                    <a href="#">
-                      <div class="item">
-                        <div class="item-photo">
-                          <img src="assets/images/prop.jpg" alt="prop">
-                        </div><!-- /.item-photo -->
-    
-                        <div class="p-inner">
-													<div class="price">
-														<span>83 000 EUR</span>
-													</div><!-- /.price -->
-
-                          <h4>Тристаен апартамент</h4>
-    
-                          <div class="cat">
-                            <p>Гр. Варна, кв. Чайка</p>
-                            <p>Квадратура: 98 м2</p>
-                          </div><!-- /.cat -->
-                        </div><!-- /.p-inner -->
-                      </div><!-- /.item -->
-                    </a>
-                  </div><!-- /.carousel-cell -->
-                  <div class="carousel-cell">
-                    <a href="#">
-                      <div class="item">
-                        <div class="item-photo">
-                          <img src="assets/images/prop1.jpg" alt="prop1">
-                        </div><!-- /.item-photo -->
-    
-                        <div class="p-inner">
-													<div class="price">
-														<span>83 000 EUR</span>
-													</div><!-- /.price -->
-
-                          <h4>Тристаен апартамент</h4>
-    
-                          <div class="cat">
-                            <p>Гр. Варна, кв. Чайка</p>
-                            <p>Квадратура: 98 м2</p>
-                          </div><!-- /.cat -->
-                        </div><!-- /.p-inner -->
-                      </div><!-- /.item -->
-                    </a>
-                  </div><!-- /.carousel-cell -->
-                  <div class="carousel-cell">
-                    <a href="#">
-                      <div class="item">
-                        <div class="item-photo">
-                          <img src="assets/images/prop.jpg" alt="prop">
-                        </div><!-- /.item-photo -->
-    
-                        <div class="p-inner">
-													<div class="price">
-														<span>60 000 EUR</span>
-													</div><!-- /.price -->
-
-                          <h4>Офис в бизнес сграда</h4>
-    
-                          <div class="cat">
-                            <p>Гр. Варна, ул. “Непозната”</p>
-                            <p>Квадратура: 59 м2</p>
-                          </div><!-- /.cat -->
-                        </div><!-- /.p-inner -->
-                      </div><!-- /.item -->
-                    </a>
-                  </div><!-- /.carousel-cell -->
-                </div><!-- /.carousel -->
-            </div><!-- /.filters-content-->
-          </div><!-- /.container -->
-        </div><!-- /.portfolio section -->
-      </div><!-- /.single-project__more-build -->
-    </div><!-- /.other-property__box-content -->
-  </div><!-- /.wrapper -->
-</div><!-- /.single-other-property -->
-<div class="contacts page-section--contacrs">
-	<div class="wrapper">
+      <svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-left-s-other-property c2" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M91.8869 101.911C102.179 113.326 102.179 130.674 91.8869 142.089L0 244L0 0L91.8869 101.911Z" fill=""/>
+      </svg>
+  </section><!-- /.single-other-property -->
+</main><!-- /.main -->
+<section class="contacts page-section--contacts">
+	<div class="shell">
 		<div class="contacts__content">
-			<h2 class="contacts__title">Свържете се с нас</h2><!-- /.contacts__title -->
+			<h2 class="contacts__title title-after--smaller-c">Свържете се с нас</h2><!-- /.contacts__title -->
 
 			<div class="contacts__boxs">
 				<div class="contacts__boxs--box">
@@ -345,10 +372,26 @@
 				</form>
 			</div><!-- /.contacts__form -->
 		</div><!-- /.contacts__content -->
-	</div><!-- /.wrapper -->
-</div><!-- /.contacts page-section--contacrs -->
-<div class="widget page-section--widget">
-	<div class="wrapper">
+	</div><!-- /.shell -->
+
+  <svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-left c1" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M125.85 139.396C136.16 150.816 136.16 168.184 125.85 179.604L0 319L0 0L125.85 139.396Z" fill=""/>
+  </svg>
+
+  <svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-left c2" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M91.8869 101.911C102.179 113.326 102.179 130.674 91.8869 142.089L0 244L0 0L91.8869 101.911Z" fill=""/>
+  </svg>
+
+  <svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-right c1" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M8.14997 139.396C-2.15995 150.816 -2.15994 168.184 8.14998 179.604L134 319L134 0L8.14997 139.396Z" fill=""/>
+  </svg>
+
+  <svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-right c2" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M8.11313 101.911C-2.17933 113.326 -2.17933 130.674 8.11314 142.089L100 244L100 0L8.11313 101.911Z" fill=""/>
+  </svg>
+</section><!-- /.contacts page-section--contacts -->
+<section class="widget page-section--widget">
+	<div class="shell">
 		<div class="widget__content">
 			<div class="widget__content--column">
 				<div class="widget__content--b-line">
@@ -367,11 +410,11 @@
 
 			<div class="widget__content--column">
 				<div class="widget__content--b-line">
-					<a href="#">Текущи проекти</a>
+					<a href="project.html">Текущи проекти</a>
 				</div><!-- /.widget__content--b-line -->
 
 				<div class="widget__content--b-line">
-					<a href="#">Завършени проекти</a>
+					<a href="project.html">Завършени проекти</a>
 				</div><!-- /.widget__content--b-line -->
 
 				<div class="widget__content--b-line">
@@ -388,36 +431,36 @@
 			</div><!-- /.widget__content--column -->
 
 			<div class="widget__content--column">
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Продажби:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="tel:+359884 606014">+359 884 606014</a>
+					<a class="blue-zoom" href="tel:+359884 606014">+359 884 606014</a>
 					<p class="widget__content--b-margin">/Диана Петкова/</p>
 				</div><!-- /.widget__content--b-line -->
 
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Имейл:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="mailto:office@varnabuild.com">office@varnabuild.com</a>
+					<a class="blue-zoom" href="mailto:office@varnabuild.com">office@varnabuild.com</a>
 				</div>
 			</div><!-- /.widget__content--column -->
 
 			<div class="widget__content--column">
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Управител:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="tel:+359888 737489">+359 888 737489</a>
+					<a class="blue-zoom" href="tel:+359888 737489">+359 888 737489</a>
 
 					<p class="widget__content--b-margin">/Николай Пантелеев/</p>
 				</div><!-- /.widget__content--b-line -->
 
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Офис:</p>
 				</div><!-- /.widget__content--b-line -->
 
@@ -426,14 +469,14 @@
 				</div>
 			</div><!-- /.widget__content--column -->
 		</div><!-- /.widget__content -->
-	</div><!-- /.wrapper -->
-</div><!-- /.widget page-section--widget -->
+	</div><!-- /.shell -->
+</section><!-- /.widget page-section--widget -->
 <footer class="f page-section--f">
-	<div class="wrapper">
+	<div class="shell">
 		<p class="f__left">&copy; 2020 „Варна Билд Имоти” ЕООД, Всички права запазени.</p><!--/.f__left-->
 
 	<p class="f__right">Изработка на сайт и дизйн  <a href="https://bultag.com/"><img src="assets/images/bultag-logo.png" alt="bultag-logo"></a></p><!--/.f__right-->
-	</div><!-- /.wrapper -->
+	</div><!-- /.shell -->
 </footer><!--/.f .page-section--f-->
-<script type="text/javascript" src="main.b094e1186db7865c7108.js"></script></body>
+<script type="text/javascript" src="main.b675a48d3bb934f9aa5a.js"></script></body>
 </html>

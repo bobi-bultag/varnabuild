@@ -17,7 +17,7 @@
 	<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-<link href="styles.b094e1186db7865c7108.css" rel="stylesheet"></head>
+<link href="styles.b675a48d3bb934f9aa5a.css" rel="stylesheet"></head>
 <body>
 <header class="h">
   <picture>
@@ -26,12 +26,11 @@
 
   <div class="h__clouds"></div><!-- /.h__clouds -->
 
-	<div class="wrapper">
-		<div class="h__logo">
-			<a href="index.html">
-				<img src="assets/images/VarnaBuild-logo.png" alt="varna-build-logo">
-			</a>
-		</div><!-- /.h__logo -->
+	<div class="shell">
+		<a class="h__logo" href="index.html">
+			<source srcset="assets/images/VarnaBuild-logo.svg" media="(min-width: 767px)">
+			<img loading="lazy" src="assets/images/VarnaBuild-logo.svg" alt="varna-build-logo" />
+		</a><!-- /.h__logo -->
 	
 		<div class="h__menu-icon">
 			<div class="h__menu-icon__middle"></div><!--/.h__menu-icon__middle-->
@@ -61,244 +60,256 @@
 		</div><!-- /.h__content -->
 	
 		<a class="h__menu-call" href="tel:+359884606014">+359 884 606014</a><!--/.h__menu-call-->
-	</div><!-- /.wrapper -->
+	</div><!-- /.shell -->
 </header><!-- /.h -->
-<div class="wrapper">
-	<div class="breadcrumbs-nav">
+<main class="main">
+	<section class="breadcrumbs-nav">
 		<ul class="breadcrumbs-nav__breadcrumb">
 			<li><a href="index.html">Начало</a></li>
 			<li><a href="project.html">Проекти</a></li>
 			<li><a class="active" href="#">ул. ”Константин Павлов” № 18</a></li>
 		</ul>
-	</div><!-- /.breadcrumbs -->
-	<div class="single-project">
-		<div class="single-project__desc">
-			<h2 class="single-project__title">Константин Павлов</h2><!-- /.single-project__title -->
-			
-			<h4 class="single-project__subtitle">кв. Виница, ул. Константин Павлов 18</h4><!-- /.single-project__subtitle -->
-			
-			<div class="single-project__table">
-				<table>
-					<tr>
-						<td>РЗП</td>
-						<td>1381.2 м&sup2;</td>
-					</tr>
-					<tr>
-						<td>Инвеститор</td>
-						<td>Варна Билд Имоти ЕООД</td>
-					</tr>
-					<tr>
-						<td>Строител</td>
-						<td>Варна Билд Имоти ЕООД</td>
-					</tr>
-					<tr>
-						<td>Срок на завършване</td>
-						<td>06.07.2017г.</td>
-					</tr>
-					<tr>
-						<td>Етап</td>
-						<td>В експлоатация</td>
-					</tr>
-				</table>
-			</div><!-- /.single-project__table -->
-			
-			<div class="single-project__btns">
-				<a href="#" class="btn btn--blue">Свържете се с нас</a><!-- /.btn btn--blue -->
-			</div><!-- /.single-project__btns -->
-		</div><!-- /.single-project__desc -->
-		
-		<div class="single-project__slider">
-			<div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "autoPlay": true }'>
-				<div class="carousel-cell">
-					<img src="assets/images/single-project-img.jpg" alt="single-project-img">
-				</div>
-				<div class="carousel-cell">
-					<img src="assets/images/single-project-img.jpg" alt="single-project-img">
-				</div>
-				<div class="carousel-cell">
-					<img src="assets/images/single-project-img.jpg" alt="single-project-img">
-				</div>
-			</div>
-		</div><!-- /.single-project__slider -->
-	</div><!-- /.single-project -->
-</div><!-- /.wrapper -->
-<div class="single-project__info">
-	<div class="wrapper">
-		<div class="single-project__info--desc">
-			<p>Нова жилищна сграда в кв. Виница, ул. Константин Павлов 18, УПИ VIII-683, кв. 6 по плана на кв. Виница, гр. Варна, с идентификатор 10135.2575.844. ЗП – 371,2 м2 РЗП – 1381,5 м2 Разрешение за строеж N 6 / 08.01.2016г. Сградата е четириетажна и разполага с 18 апартамента – 8 тристайни и 10 двустайни. Към всяко жилище има паркомясто в двора на жилищния блок, включено в цената. Акт 16 от 06.07.2017г.</p>
-		</div><!-- /.single-project__info--desc -->
-
-		<div class="single-project__info--box">
-			<div class="single-project__info--box__l">
-				<h2>Степен на завършеност</h2>
-
-				<button class="accordion">Конструкция</button>
-				<div class="panel">
-					<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
-				</div>
-
-				<button class="accordion">Довършителни работи апартаменти:</button>
-				<div class="panel">
-					<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
-				</div>
-
-				<button class="accordion">Инсталации</button>
-				<div class="panel">
-					<p>ВиК инсталации кухни, бани, тоалетни – полипропиленови водопроводни тръби; PVC тръби за канализация; монтирани водомери, вентилаторни решетки; изводи за санитарно обзавеждане на тапа;</p>
-					<p>Ел. инсталации – монтирани ключове и контакти, заредени с фасунги (стойност за материала –ключове, контакти, фасунги); домофонна инсталация; телефонизация до апартамента; изводи за кабелна телевизия, интернет</p>
-				</div>
-
-				<button class="accordion">Общи части сграда – в завършен вид</button>
-				<div class="panel">
-					<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
-				</div>
-			</div><!-- /.single-project__info--box__l -->
-
-			<div class="single-project__info--box__r">
-				<h2>Какво представлява жилищна сграда “Константин Павлов”?</h2>
-				<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
-			
-				<h2>Къде се намира?</h2>
-				<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
-			
-				<h2>Как да организирам оглед?</h2>
-				<p>Позвънете на:</p>
-
-				<p>	<a href="tel:+359884606014">+359 884 606014</a> / Диана Петкова / - Продажби</br>
-					или</br>
-					<a href="tel:+359888737489">+359 888 737489</a> / Николай Пантелеев / - Управител</p>
+	</section><!-- /.breadcrumbs -->
+	<section class="page-section--single-project">
+		<div class="shell">
+			<div class="single-project">
+				<div class="single-project__desc">
+					<h2 class="single-project__title title-after--small">Константин Павлов</h2><!-- /.single-project__title -->
 					
-				<p>Можете да уговорите вашия час за оглед и като ни пишете на <a href="mailto:office@varnabuild.com">office@varnabuild.com</a></p>
-			</div><!-- /.single-project__info--box__r -->
-		</div><!-- /.single-project__info--box -->
-	</div><!-- /.wrapper -->
-</div><!-- /.single-project__info -->
-<div class="single-project__more-build">
-	<div class="wrapper">
-		<h2>Още имоти от Varnabuild</h2>
+					<h4 class="single-project__subtitle">кв. Виница, ул. Константин Павлов 18</h4><!-- /.single-project__subtitle -->
+					
+					<div class="single-project__table">
+						<table>
+							<tr>
+								<td>РЗП</td>
+								<td>1381.2 м&sup2;</td>
+							</tr>
+							<tr>
+								<td>Инвеститор</td>
+								<td>Варна Билд Имоти ЕООД</td>
+							</tr>
+							<tr>
+								<td>Строител</td>
+								<td>Варна Билд Имоти ЕООД</td>
+							</tr>
+							<tr>
+								<td>Срок на завършване</td>
+								<td>06.07.2017г.</td>
+							</tr>
+							<tr>
+								<td>Етап</td>
+								<td>В експлоатация</td>
+							</tr>
+						</table>
+					</div><!-- /.single-project__table -->
+					
+					<div class="single-project__btns">
+						<a href="#" class="btn btn--blue">Свържете се с нас</a><!-- /.btn btn--blue -->
+					</div><!-- /.single-project__btns -->
+				</div><!-- /.single-project__desc -->
+				
+				<div class="single-project__slider">
+					<div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "autoPlay": true }'>
+						<div class="carousel-cell">
+							<img src="assets/images/single-project-img.jpg" alt="single-project-img">
+						</div>
+						<div class="carousel-cell">
+							<img src="assets/images/single-project-img.jpg" alt="single-project-img">
+						</div>
+						<div class="carousel-cell">
+							<img src="assets/images/single-project-img.jpg" alt="single-project-img">
+						</div>
+					</div>
+				</div><!-- /.single-project__slider -->
+			</div><!-- /.single-project -->
+		</div><!-- /.shell -->
+	</section><!-- /.single-project -->
+	<section class="single-project__info">
+		<div class="shell">
+			<div class="single-project__info--desc">
+				<p>Нова жилищна сграда в кв. Виница, ул. Константин Павлов 18, УПИ VIII-683, кв. 6 по плана на кв. Виница, гр. Варна, с идентификатор 10135.2575.844. ЗП – 371,2 м2 РЗП – 1381,5 м2 Разрешение за строеж N 6 / 08.01.2016г. Сградата е четириетажна и разполага с 18 апартамента – 8 тристайни и 10 двустайни. Към всяко жилище има паркомясто в двора на жилищния блок, включено в цената. Акт 16 от 06.07.2017г.</p>
+			</div><!-- /.single-project__info--desc -->
+	
+			<div class="single-project__info--box">
+				<div class="single-project__info--box__l">
+					<h2 class="title-after--smaller">Степен на завършеност</h2>
+	
+					<button class="accordion js-accordion-title">Конструкция</button>
+					<div class="panel">
+						<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
+					</div>
+	
+					<button class="accordion js-accordion-title">Довършителни работи апартаменти:</button>
+					<div class="panel">
+						<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
+					</div>
+	
+					<button class="accordion js-accordion-title">Инсталации</button>
+					<div class="panel">
+						<p>ВиК инсталации кухни, бани, тоалетни – полипропиленови водопроводни тръби; PVC тръби за канализация; монтирани водомери, вентилаторни решетки; изводи за санитарно обзавеждане на тапа;</p>
+						<p>Ел. инсталации – монтирани ключове и контакти, заредени с фасунги (стойност за материала –ключове, контакти, фасунги); домофонна инсталация; телефонизация до апартамента; изводи за кабелна телевизия, интернет</p>
+					</div>
+	
+					<button class="accordion js-accordion-title">Общи части сграда – в завършен вид</button>
+					<div class="panel">
+						<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
+					</div>
+				</div><!-- /.single-project__info--box__l -->
+	
+				<div class="single-project__info--box__r">
+					<h2>Какво представлява жилищна сграда “Константин Павлов”?</h2>
+					<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
+				
+					<h2>Къде се намира?</h2>
+					<p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
+				
+					<h2>Как да организирам оглед?</h2>
+					<p>Позвънете на:</p>
+	
+					<p>	<a href="tel:+359884606014">+359 884 606014</a> / Диана Петкова / - Продажби</br>
+						или</br>
+						<a href="tel:+359888737489">+359 888 737489</a> / Николай Пантелеев / - Управител</p>
+						
+					<p>Можете да уговорите вашия час за оглед и като ни пишете на <a href="mailto:office@varnabuild.com">office@varnabuild.com</a></p>
+				</div><!-- /.single-project__info--box__r -->
+			</div><!-- /.single-project__info--box -->
+		</div><!-- /.shell -->
 
-		<div class="portfolio section">
-			<div class="container">
-				<div class="filters-content">
-					<div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "autoPlay": true, "prevNextButtons": false, "groupCells": true }'>
-							<div class="carousel-cell">
-								<a href="single-project-whit-map.html">
-									<div class="item">
-										<div class="item-photo">
-											<img src="assets/images/project.jpg" alt="project">
-										</div><!-- /.item-photo -->
+		<svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-left-single-project c1" xmlns="http://www.w3.org/2000/svg">
+			<path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M125.85 139.396C136.16 150.816 136.16 168.184 125.85 179.604L0 319L0 0L125.85 139.396Z" fill=""/>
+		</svg>
 
-										<div class="p-inner">
-											<h4>кв. Виница, ул. “Морска Звезда” 2</h4>
-
-											<div class="cat">
-												<p>Завършване: Сепември, 2021 г.</p>
-												<p>Свободни: 20 апартамента</p>
-											</div><!-- /.cat -->
-										</div><!-- /.p-inner -->
-									</div><!-- /.item -->
-								</a>
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<a href="single-project.html">
-									<div class="item">
-										<div class="item-photo">
-											<img src="assets/images/project2.jpg" alt="project2">
-										</div><!-- /.item-photo -->
-
-										<div class="p-inner">
-											<h4>ул. “Константин Павлов” 18</h4>
-
-											<div class="cat">
-												<p>Завършване: Сепември, 2021 г.</p>
-												<p>Свободни: 20 апартамента</p>
-											</div><!-- /.cat -->
-										</div><!-- /.p-inner -->
-									</div><!-- /.item -->
-								</a>
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<a href="#">
-									<div class="item">
-										<div class="item-photo">
-											<img src="assets/images/project3.jpg" alt="project3">
-										</div><!-- /.item-photo -->
-
-										<div class="p-inner">
-											<h4>ул. “Константин Щъркелов” 6</h4>
-
-											<div class="cat">
-												<p>Завършване: Сепември, 2021 г.</p>
-												<p>Свободни: 20 апартамента</p>
-											</div><!-- /.cat -->
-										</div><!-- /.p-inner -->
-									</div><!-- /.item -->
-								</a>
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<a href="#">
-									<div class="item">
-										<div class="item-photo">
-											<img src="assets/images/project3.jpg" alt="project3">
-										</div><!-- /.item-photo -->
-
-										<div class="p-inner">
-											<h4>ул. “Константин Щъркелов” 6</h4>
-
-											<div class="cat">
-												<p>Завършване: Сепември, 2021 г.</p>
-												<p>Свободни: 20 апартамента</p>
-											</div><!-- /.cat -->
-										</div><!-- /.p-inner -->
-									</div><!-- /.item -->
-								</a>
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<a href="#">
-									<div class="item">
-										<div class="item-photo">
-											<img src="assets/images/project4.jpg" alt="project4">
-										</div><!-- /.item-photo -->
-
-										<div class="p-inner">
-											<h4>кв. Виница, ул. „Черно море“ 5</h4>
-
-											<div class="cat">
-												<p>Завършване: Сепември, 2021 г.</p>
-												<p>Свободни: 20 апартамента</p>
-											</div><!-- /.cat -->
-										</div><!-- /.p-inner -->
-									</div><!-- /.item -->
-								</a>
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<a href="#">
-									<div class="item">
-										<div class="item-photo">
-											<img src="assets/images/project4.jpg" alt="project4">
-										</div><!-- /.item-photo -->
-
-										<div class="p-inner">
-											<h4>кв. Виница, ул. „Черно море“ 5</h4>
-
-											<div class="cat">
-												<p>Завършване: Сепември, 2021 г.</p>
-												<p>Свободни: 20 апартамента</p>
-											</div><!-- /.cat -->
-										</div><!-- /.p-inner -->
-									</div><!-- /.item -->
-								</a>
-							</div><!-- /.carousel-cell -->
-						</div><!-- /.carousel -->
-				</div><!-- /.filters-content-->
-			</div><!-- /.container -->
-		</div><!-- /.portfolio section -->
-	</div><!-- /.wrapper -->
-</div><!-- /.single-project__more-build -->
-<div class="contacts page-section--contacrs">
-	<div class="wrapper">
+		<svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-left-single-project c2" xmlns="http://www.w3.org/2000/svg">
+			<path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M91.8869 101.911C102.179 113.326 102.179 130.674 91.8869 142.089L0 244L0 0L91.8869 101.911Z" fill=""/>
+		</svg>
+	</section><!-- /.single-project__info -->
+	<section class="single-project__more-build">
+		<div class="shell">
+			<h2 class="title-after--small-nc">Още имоти от Varnabuild</h2>
+	
+			<div class="portfolio section">
+				<div class="container">
+					<div class="filters-content">
+						<div class="carousel" data-flickity='{"pageDots": false, "autoPlay": 3500, "prevNextButtons": false, "groupCells": true }'>
+								<div class="carousel-cell">
+									<a href="single-project-whit-map.html">
+										<div class="item">
+											<div class="item-photo">
+												<img src="assets/images/project.jpg" alt="project">
+											</div><!-- /.item-photo -->
+	
+											<div class="p-inner">
+												<h4>кв. Виница, ул. “Морска Звезда” 2</h4>
+	
+												<div class="cat">
+													<p>Завършване: Сепември, 2021 г.</p>
+													<p>Свободни: 20 апартамента</p>
+												</div><!-- /.cat -->
+											</div><!-- /.p-inner -->
+										</div><!-- /.item -->
+									</a>
+								</div><!-- /.carousel-cell -->
+								<div class="carousel-cell">
+									<a href="single-project.html">
+										<div class="item">
+											<div class="item-photo">
+												<img src="assets/images/project2.jpg" alt="project2">
+											</div><!-- /.item-photo -->
+	
+											<div class="p-inner">
+												<h4>ул. “Константин Павлов” 18</h4>
+	
+												<div class="cat">
+													<p>Завършване: Сепември, 2021 г.</p>
+													<p>Свободни: 20 апартамента</p>
+												</div><!-- /.cat -->
+											</div><!-- /.p-inner -->
+										</div><!-- /.item -->
+									</a>
+								</div><!-- /.carousel-cell -->
+								<div class="carousel-cell">
+									<a href="#">
+										<div class="item">
+											<div class="item-photo">
+												<img src="assets/images/project3.jpg" alt="project3">
+											</div><!-- /.item-photo -->
+	
+											<div class="p-inner">
+												<h4>ул. “Константин Щъркелов” 6</h4>
+	
+												<div class="cat">
+													<p>Завършване: Сепември, 2021 г.</p>
+													<p>Свободни: 20 апартамента</p>
+												</div><!-- /.cat -->
+											</div><!-- /.p-inner -->
+										</div><!-- /.item -->
+									</a>
+								</div><!-- /.carousel-cell -->
+								<div class="carousel-cell">
+									<a href="#">
+										<div class="item">
+											<div class="item-photo">
+												<img src="assets/images/project3.jpg" alt="project3">
+											</div><!-- /.item-photo -->
+	
+											<div class="p-inner">
+												<h4>ул. “Константин Щъркелов” 6</h4>
+	
+												<div class="cat">
+													<p>Завършване: Сепември, 2021 г.</p>
+													<p>Свободни: 20 апартамента</p>
+												</div><!-- /.cat -->
+											</div><!-- /.p-inner -->
+										</div><!-- /.item -->
+									</a>
+								</div><!-- /.carousel-cell -->
+								<div class="carousel-cell">
+									<a href="#">
+										<div class="item">
+											<div class="item-photo">
+												<img src="assets/images/project4.jpg" alt="project4">
+											</div><!-- /.item-photo -->
+	
+											<div class="p-inner">
+												<h4>кв. Виница, ул. „Черно море“ 5</h4>
+	
+												<div class="cat">
+													<p>Завършване: Сепември, 2021 г.</p>
+													<p>Свободни: 20 апартамента</p>
+												</div><!-- /.cat -->
+											</div><!-- /.p-inner -->
+										</div><!-- /.item -->
+									</a>
+								</div><!-- /.carousel-cell -->
+								<div class="carousel-cell">
+									<a href="#">
+										<div class="item">
+											<div class="item-photo">
+												<img src="assets/images/project4.jpg" alt="project4">
+											</div><!-- /.item-photo -->
+	
+											<div class="p-inner">
+												<h4>кв. Виница, ул. „Черно море“ 5</h4>
+	
+												<div class="cat">
+													<p>Завършване: Сепември, 2021 г.</p>
+													<p>Свободни: 20 апартамента</p>
+												</div><!-- /.cat -->
+											</div><!-- /.p-inner -->
+										</div><!-- /.item -->
+									</a>
+								</div><!-- /.carousel-cell -->
+							</div><!-- /.carousel -->
+					</div><!-- /.filters-content-->
+				</div><!-- /.container -->
+			</div><!-- /.portfolio section -->
+		</div><!-- /.shell -->
+	</section><!-- /.single-project__more-build -->
+</main><!-- /.main -->
+<section class="contacts page-section--contacts">
+	<div class="shell">
 		<div class="contacts__content">
-			<h2 class="contacts__title">Свържете се с нас</h2><!-- /.contacts__title -->
+			<h2 class="contacts__title title-after--smaller-c">Свържете се с нас</h2><!-- /.contacts__title -->
 
 			<div class="contacts__boxs">
 				<div class="contacts__boxs--box">
@@ -338,10 +349,26 @@
 				</form>
 			</div><!-- /.contacts__form -->
 		</div><!-- /.contacts__content -->
-	</div><!-- /.wrapper -->
-</div><!-- /.contacts page-section--contacrs -->
-<div class="widget page-section--widget">
-	<div class="wrapper">
+	</div><!-- /.shell -->
+
+	<svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-left c1" xmlns="http://www.w3.org/2000/svg">
+		<path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M125.85 139.396C136.16 150.816 136.16 168.184 125.85 179.604L0 319L0 0L125.85 139.396Z" fill=""/>
+	</svg>
+
+	<svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-left c2" xmlns="http://www.w3.org/2000/svg">
+		<path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M91.8869 101.911C102.179 113.326 102.179 130.674 91.8869 142.089L0 244L0 0L91.8869 101.911Z" fill=""/>
+	</svg>
+
+	<svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-right c1" xmlns="http://www.w3.org/2000/svg">
+		<path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M8.14997 139.396C-2.15995 150.816 -2.15994 168.184 8.14998 179.604L134 319L134 0L8.14997 139.396Z" fill=""/>
+	</svg>
+
+	<svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-right c2" xmlns="http://www.w3.org/2000/svg">
+		<path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M8.11313 101.911C-2.17933 113.326 -2.17933 130.674 8.11314 142.089L100 244L100 0L8.11313 101.911Z" fill=""/>
+	</svg>
+</section><!-- /.contacts page-section--contacts -->
+<section class="widget page-section--widget">
+	<div class="shell">
 		<div class="widget__content">
 			<div class="widget__content--column">
 				<div class="widget__content--b-line">
@@ -360,11 +387,11 @@
 
 			<div class="widget__content--column">
 				<div class="widget__content--b-line">
-					<a href="#">Текущи проекти</a>
+					<a href="project.html">Текущи проекти</a>
 				</div><!-- /.widget__content--b-line -->
 
 				<div class="widget__content--b-line">
-					<a href="#">Завършени проекти</a>
+					<a href="project.html">Завършени проекти</a>
 				</div><!-- /.widget__content--b-line -->
 
 				<div class="widget__content--b-line">
@@ -381,36 +408,36 @@
 			</div><!-- /.widget__content--column -->
 
 			<div class="widget__content--column">
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Продажби:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="tel:+359884 606014">+359 884 606014</a>
+					<a class="blue-zoom" href="tel:+359884 606014">+359 884 606014</a>
 					<p class="widget__content--b-margin">/Диана Петкова/</p>
 				</div><!-- /.widget__content--b-line -->
 
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Имейл:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="mailto:office@varnabuild.com">office@varnabuild.com</a>
+					<a class="blue-zoom" href="mailto:office@varnabuild.com">office@varnabuild.com</a>
 				</div>
 			</div><!-- /.widget__content--column -->
 
 			<div class="widget__content--column">
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Управител:</p>
 				</div><!-- /.widget__content--b-line -->
 
 				<div>
-					<a href="tel:+359888 737489">+359 888 737489</a>
+					<a class="blue-zoom" href="tel:+359888 737489">+359 888 737489</a>
 
 					<p class="widget__content--b-margin">/Николай Пантелеев/</p>
 				</div><!-- /.widget__content--b-line -->
 
-				<div class="widget__content--b-line">
+				<div class="widget__content--b-line no-hover">
 					<p>Офис:</p>
 				</div><!-- /.widget__content--b-line -->
 
@@ -419,14 +446,14 @@
 				</div>
 			</div><!-- /.widget__content--column -->
 		</div><!-- /.widget__content -->
-	</div><!-- /.wrapper -->
-</div><!-- /.widget page-section--widget -->
+	</div><!-- /.shell -->
+</section><!-- /.widget page-section--widget -->
 <footer class="f page-section--f">
-	<div class="wrapper">
+	<div class="shell">
 		<p class="f__left">&copy; 2020 „Варна Билд Имоти” ЕООД, Всички права запазени.</p><!--/.f__left-->
 
 	<p class="f__right">Изработка на сайт и дизйн  <a href="https://bultag.com/"><img src="assets/images/bultag-logo.png" alt="bultag-logo"></a></p><!--/.f__right-->
-	</div><!-- /.wrapper -->
+	</div><!-- /.shell -->
 </footer><!--/.f .page-section--f-->
-<script type="text/javascript" src="main.b094e1186db7865c7108.js"></script></body>
+<script type="text/javascript" src="main.b675a48d3bb934f9aa5a.js"></script></body>
 </html>

@@ -17,7 +17,7 @@
 	<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-<link href="styles.b094e1186db7865c7108.css" rel="stylesheet"></head>
+<link href="styles.b675a48d3bb934f9aa5a.css" rel="stylesheet"></head>
 <body>
 <header class="h">
   <picture>
@@ -26,12 +26,11 @@
 
   <div class="h__clouds"></div><!-- /.h__clouds -->
 
-	<div class="wrapper">
-		<div class="h__logo">
-			<a href="index.html">
-				<img src="assets/images/VarnaBuild-logo.png" alt="varna-build-logo">
-			</a>
-		</div><!-- /.h__logo -->
+	<div class="shell">
+		<a class="h__logo" href="index.html">
+			<source srcset="assets/images/VarnaBuild-logo.svg" media="(min-width: 767px)">
+			<img loading="lazy" src="assets/images/VarnaBuild-logo.svg" alt="varna-build-logo" />
+		</a><!-- /.h__logo -->
 	
 		<div class="h__menu-icon">
 			<div class="h__menu-icon__middle"></div><!--/.h__menu-icon__middle-->
@@ -61,338 +60,364 @@
 		</div><!-- /.h__content -->
 	
 		<a class="h__menu-call" href="tel:+359884606014">+359 884 606014</a><!--/.h__menu-call-->
-	</div><!-- /.wrapper -->
+	</div><!-- /.shell -->
 </header><!-- /.h -->
-<div class="breadcrumbs-nav">
-  <div class="wrapper">
-	  <ul class="breadcrumbs-nav__breadcrumb">
-			<li><a href="index.html">Начало</a></li>
-			<li><a href="blog.html">Проекти</a></li>
-			<li><a class="active" href="#">Нов етап на строителство</a></li>
-    </ul>
-  </div>
-</div><!-- /.breadcrumbs -->
-<div class="single-post">
-  <div class="wrapper">
-    <h2 class="single-post__title">Нов Етап на сроителство - Морска звезда</h2><!-- /.single-post__title -->
-			
-    <h4 class="single-post__subtitle">17 Март 2020</h4><!-- /.single-post__subtitle -->
-  
-    <div class="single-post__content">
-      <div class="slider__group">
-        <div class="single-post__slider">
-          <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "autoPlay": true }'>
-            <div class="carousel-cell">
-              <img src="assets/images/single-post.jpg" alt="single-post">
-            </div>
-            <div class="carousel-cell">
-              <img src="assets/images/single-post.jpg" alt="single-post">
-            </div>
-            <div class="carousel-cell">
-              <img src="assets/images/single-post.jpg" alt="single-post">
-            </div>
-          </div>
-        </div><!-- /.single-post__slider -->
-  
-        <div class="single-post__desc">
-          <p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
-          
-          <h3>Сед сапиен урна, вехицула нон луцтус тинцидунт, цурсус нец арцу.</h3>
+<main class="main">
+  <section class="breadcrumbs-nav">
+    <div class="shell">
+      <ul class="breadcrumbs-nav__breadcrumb">
+        <li><a href="index.html">Начало</a></li>
+        <li><a href="blog.html">Проекти</a></li>
+        <li><a class="active" href="#">Нов етап на строителство</a></li>
+      </ul>
+    </div>
+  </section><!-- /.breadcrumbs -->
+  <section class="single-post page-section--single-post">
+    <div class="shell">
+      <h2 class="single-post__title title-after-n-b">Нов Етап на сроителство - Морска звезда</h2><!-- /.single-post__title -->
+        
+      <h4 class="single-post__subtitle">17 Март 2020</h4><!-- /.single-post__subtitle -->
     
-          <ul>
-            <li>Ин сед долор анте. Нулла а либеро турпис, нец рхонцус масса. Донец витае фауцибус нисл. </li>
-            <li>Ин сед долор анте. Нулла а либеро турпис, нец рхонцус масса. Донец витае фауцибус нисл. </li>
-            <li>Ин сед долор анте. Нулла а либеро турпис, нец рхонцус масса. Донец витае фауцибус нисл. </li>
-            <li>Ин сед долор анте. Нулла а либеро турпис, нец рхонцус масса. Донец витае фауцибус нисл. </li>
-          </ul>
+      <div class="single-post__content">
+        <div class="slider__group">
+          <div class="single-post__slider">
+            <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "autoPlay": true }'>
+              <div class="carousel-cell">
+                <img src="assets/images/single-post.jpg" alt="single-post">
+              </div>
+              <div class="carousel-cell">
+                <img src="assets/images/single-post.jpg" alt="single-post">
+              </div>
+              <div class="carousel-cell">
+                <img src="assets/images/single-post.jpg" alt="single-post">
+              </div>
+            </div>
+          </div><!-- /.single-post__slider -->
     
-          <p>Цурабитур маттис, рисус сит амет пхаретра цонгуе, нисл либеро луцтус неqуе, ин пулвинар ипсум маурис ац турпис. Нуллам рхонцус соллицитудин тортор, ид малесуада нисл гравида ет. Проин рхонцус цондиментум тортор нец хендрерит. Маеценас елеифенд хендрерит еним, сит амет тинцидунт лецтус сусципит ид.</p>
-        </div><!-- /.single-post__desc -->
-      </div><!-- /.slider__group -->
+          <div class="single-post__desc">
+            <p>Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл. Фусце алиqуам егестас нисл сед цонгуе. Нулла фацилиси. Ут сит амет маурис ат жусто цонгуе луцтус сед а жусто. </p>
+            
+            <h3>Сед сапиен урна, вехицула нон луцтус тинцидунт, цурсус нец арцу.</h3>
+      
+            <ul>
+              <li>Ин сед долор анте. Нулла а либеро турпис, нец рхонцус масса. Донец витае фауцибус нисл. </li>
+              <li>Ин сед долор анте. Нулла а либеро турпис, нец рхонцус масса. Донец витае фауцибус нисл. </li>
+              <li>Ин сед долор анте. Нулла а либеро турпис, нец рхонцус масса. Донец витае фауцибус нисл. </li>
+              <li>Ин сед долор анте. Нулла а либеро турпис, нец рхонцус масса. Донец витае фауцибус нисл. </li>
+            </ul>
+      
+            <p>Цурабитур маттис, рисус сит амет пхаретра цонгуе, нисл либеро луцтус неqуе, ин пулвинар ипсум маурис ац турпис. Нуллам рхонцус соллицитудин тортор, ид малесуада нисл гравида ет. Проин рхонцус цондиментум тортор нец хендрерит. Маеценас елеифенд хендрерит еним, сит амет тинцидунт лецтус сусципит ид.</p>
+          </div><!-- /.single-post__desc -->
+        </div><!-- /.slider__group -->
+  
+        <div class="what-more">
+          <h3>Какво предстои?</h3>
+  
+          <div class="what-more__content">
+            <div class="what-more__content--box">
+              <h5>Интегер темпус порттитор тортор</h5>
+              <p>Нунц тортор лацус, гравида а семпер ин, сагиттис ид сапиен. Интегер феугиат, еним ац фацилисис ауцтор, лецтус ерос пхаретра тортор, ид соллицитудин лигула рисус егет одио. </p>
+            </div><!-- /.what-more__content--box -->
+  
+            <div class="what-more__content--box">
+              <h5>Интегер темпус порттитор тортор</h5>
+              <p>Нунц тортор лацус, гравида а семпер ин, сагиттис ид сапиен. Интегер феугиат, еним ац фацилисис ауцтор, лецтус ерос пхаретра тортор, ид соллицитудин лигула рисус егет одио. </p>
+            </div><!-- /.what-more__content--box -->
+  
+            <div class="what-more__content--box">
+              <h5>Интегер темпус порттитор тортор</h5>
+              <p>Нунц тортор лацус, гравида а семпер ин, сагиттис ид сапиен. Интегер феугиат, еним ац фацилисис ауцтор, лецтус ерос пхаретра тортор, ид соллицитудин лигула рисус егет одио. </p>
+            </div><!-- /.what-more__content--box -->
+          </div><!-- /.what-more__content -->
+        </div><!-- /.what-more -->
+      </div><!-- /.single-post__content -->  
+    </div><!-- /.shell -->
 
-      <div class="what-more">
-        <h3>Какво предстои?</h3>
+    <svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-left-single-post c1" xmlns="http://www.w3.org/2000/svg">
+      <path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M125.85 139.396C136.16 150.816 136.16 168.184 125.85 179.604L0 319L0 0L125.85 139.396Z" fill=""/>
+    </svg>
 
-        <div class="what-more__content">
-          <div class="what-more__content--box">
-            <h5>Интегер темпус порттитор тортор</h5>
-            <p>Нунц тортор лацус, гравида а семпер ин, сагиттис ид сапиен. Интегер феугиат, еним ац фацилисис ауцтор, лецтус ерос пхаретра тортор, ид соллицитудин лигула рисус егет одио. </p>
-          </div><!-- /.what-more__content--box -->
+    <svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-left-single-post c2" xmlns="http://www.w3.org/2000/svg">
+      <path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M91.8869 101.911C102.179 113.326 102.179 130.674 91.8869 142.089L0 244L0 0L91.8869 101.911Z" fill=""/>
+    </svg>
+  </section><!-- /.single-post -->
+  <section class="single-project__more-build single-post__more-build">
+    <div class="shell">
+      <h2 class="big">Още имоти от Varnabuild</h2>
+  
+      <div class="portfolio section">
+        <div class="container">
+          <div class="filters-content">
+            <div class="carousel" data-flickity='{ "contain": true, "pageDots": false, "autoPlay": 4500, "prevNextButtons": false, "groupCells": true }'>
+                <div class="carousel-cell">
+                  <div class="blog__grid--news">
+                    <a href="#">
+                      <div class="blog__grid--news--photo">
+                        <img src="assets/images/news2.jpg" alt="news2">
+                      </div><!-- /.blog__grid--news--photo -->
+            
+                      <div class="blog__grid--news--desc">
+                        <h4>Строителство</h4>
+            
+                        <h2>Нов Етап на сроителство - Морска звезда</h2>
+            
+                        <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+                        
+                        <h4>17 Март 2020</h4>
+                      </div><!-- /.blog__grid--news--desc -->
+                    </a>
+                  </div><!-- /.blog__grid--news -->
+                </div><!-- /.carousel-cell -->
+                <div class="carousel-cell">
+                  <div class="blog__grid--news">
+                    <a href="#">
+                      <div class="blog__grid--news--photo">
+                        <img src="assets/images/news3.jpg" alt="news3">
+                      </div><!-- /.blog__grid--news--photo -->
+            
+                      <div class="blog__grid--news--desc">
+                        <h4>Строителство</h4>
+            
+                        <h2>Нов Етап на сроителство - Морска звезда</h2>
+                        
+                        <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+                        
+                        <h4>17 Март 2020</h4>
+                      </div><!-- /.blog__grid--news--desc -->
+                    </a>
+                  </div><!-- /.blog__grid--news -->
+                </div><!-- /.carousel-cell -->
+                <div class="carousel-cell">
+                  <div class="blog__grid--news">
+                    <a href="#">
+                      <div class="blog__grid--news--photo">
+                        <img src="assets/images/news4.jpg" alt="news4">
+                      </div><!-- /.blog__grid--news--photo -->
+            
+                      <div class="blog__grid--news--desc">
+                        <h4>Строителство</h4>
+            
+                        <h2>Нов Етап на сроителство - Морска звезда</h2>
+            
+                        <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+                        
+                        <h4>17 Март 2020</h4>
+                      </div><!-- /.blog__grid--news--desc -->
+                    </a>
+                  </div><!-- /.blog__grid--news -->
+                </div><!-- /.carousel-cell -->
+                <div class="carousel-cell">
+                  <div class="blog__grid--news">
+                    <a href="#">
+                      <div class="blog__grid--news--photo">
+                        <img src="assets/images/news5.jpg" alt="news5">
+                      </div><!-- /.blog__grid--news--photo -->
+            
+                      <div class="blog__grid--news--desc">
+                        <h4>Строителство</h4>
+            
+                        <h2>Нов Етап на сроителство - Морска звезда</h2>
+                        
+                        <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+                        
+                        <h4>17 Март 2020</h4>
+                      </div><!-- /.blog__grid--news--desc -->
+                    </a>
+                  </div><!-- /.blog__grid--news -->
+                </div><!-- /.carousel-cell -->
+                <div class="carousel-cell">
+                  <div class="blog__grid--news">
+                    <a href="#">
+                      <div class="blog__grid--news--photo">
+                        <img src="assets/images/news6.jpg" alt="news6">
+                      </div><!-- /.blog__grid--news--photo -->
+            
+                      <div class="blog__grid--news--desc">
+                        <h4>Строителство</h4>
+            
+                        <h2>Нов Етап на сроителство - Морска звезда</h2>
+                        
+                        <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+                        
+                        <h4>17 Март 2020</h4>
+                      </div><!-- /.blog__grid--news--desc -->
+                    </a>
+                  </div><!-- /.blog__grid--news -->
+                </div><!-- /.carousel-cell -->
+                <div class="carousel-cell">
+                  <div class="blog__grid--news">
+                    <a href="#">
+                      <div class="blog__grid--news--photo">
+                        <img src="assets/images/news7.jpg" alt="news7">
+                      </div><!-- /.blog__grid--news--photo -->
+            
+                      <div class="blog__grid--news--desc">
+                        <h4>Строителство</h4>
+            
+                        <h2>Нов Етап на сроителство - Морска звезда</h2>
+                        
+                        <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
+                        
+                        <h4>17 Март 2020</h4>
+                      </div><!-- /.blog__grid--news--desc -->
+                    </a>
+                  </div><!-- /.blog__grid--news -->
+                </div><!-- /.carousel-cell -->
+              </div><!-- /.carousel -->
+          </div><!-- /.filters-content-->
+        </div><!-- /.container -->
+      </div><!-- /.portfolio section -->
+    </div><!-- /.shell -->
+  </section><!-- /.single-project__more-build -->
+</main><!-- /.main -->
+<section class="contacts page-section--contacts">
+	<div class="shell">
+		<div class="contacts__content">
+			<h2 class="contacts__title title-after--smaller-c">Свържете се с нас</h2><!-- /.contacts__title -->
 
-          <div class="what-more__content--box">
-            <h5>Интегер темпус порттитор тортор</h5>
-            <p>Нунц тортор лацус, гравида а семпер ин, сагиттис ид сапиен. Интегер феугиат, еним ац фацилисис ауцтор, лецтус ерос пхаретра тортор, ид соллицитудин лигула рисус егет одио. </p>
-          </div><!-- /.what-more__content--box -->
+			<div class="contacts__boxs">
+				<div class="contacts__boxs--box">
+					<h4>Продажби</h4>
 
-          <div class="what-more__content--box">
-            <h5>Интегер темпус порттитор тортор</h5>
-            <p>Нунц тортор лацус, гравида а семпер ин, сагиттис ид сапиен. Интегер феугиат, еним ац фацилисис ауцтор, лецтус ерос пхаретра тортор, ид соллицитудин лигула рисус егет одио. </p>
-          </div><!-- /.what-more__content--box -->
-        </div><!-- /.what-more__content -->
-      </div><!-- /.what-more -->
-    </div><!-- /.single-post__content -->  
-  </div><!-- /.wrapper -->
-</div><!-- /.single-post -->
-<div class="single-project__more-build">
-	<div class="wrapper">
-		<h2 class="big" >Още имоти от Varnabuild</h2>
+					<a href="tel:+359884606014">+359 884 606014</a>
 
-		<div class="portfolio section">
-			<div class="container">
-				<div class="filters-content">
-					<div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "pageDots": false, "autoPlay": true, "prevNextButtons": false, "groupCells": true }'>
-							<div class="carousel-cell">
-								<div class="blog__grid--news">
-                  <a href="#">
-                    <div class="blog__grid--news--photo">
-                      <img src="assets/images/news2.jpg" alt="news2">
-                    </div><!-- /.blog__grid--news--photo -->
-          
-                    <div class="blog__grid--news--desc">
-                      <h4>Строителство</h4>
-          
-                      <h2>Нов Етап на сроителство - Морска звезда</h2>
-          
-                      <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
-                      
-                      <h4>17 Март 2020</h4>
-                    </div><!-- /.blog__grid--news--desc -->
-                  </a>
-                </div><!-- /.blog__grid--news -->
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<div class="blog__grid--news">
-                  <a href="#">
-                    <div class="blog__grid--news--photo">
-                      <img src="assets/images/news3.jpg" alt="news3">
-                    </div><!-- /.blog__grid--news--photo -->
-          
-                    <div class="blog__grid--news--desc">
-                      <h4>Строителство</h4>
-          
-                      <h2>Нов Етап на сроителство - Морска звезда</h2>
-                      
-                      <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
-                      
-                      <h4>17 Март 2020</h4>
-                    </div><!-- /.blog__grid--news--desc -->
-                  </a>
-                </div><!-- /.blog__grid--news -->
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<div class="blog__grid--news">
-                  <a href="#">
-                    <div class="blog__grid--news--photo">
-                      <img src="assets/images/news4.jpg" alt="news4">
-                    </div><!-- /.blog__grid--news--photo -->
-          
-                    <div class="blog__grid--news--desc">
-                      <h4>Строителство</h4>
-          
-                      <h2>Нов Етап на сроителство - Морска звезда</h2>
-          
-                      <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
-                      
-                      <h4>17 Март 2020</h4>
-                    </div><!-- /.blog__grid--news--desc -->
-                  </a>
-                </div><!-- /.blog__grid--news -->
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<div class="blog__grid--news">
-                  <a href="#">
-                    <div class="blog__grid--news--photo">
-                      <img src="assets/images/news5.jpg" alt="news5">
-                    </div><!-- /.blog__grid--news--photo -->
-          
-                    <div class="blog__grid--news--desc">
-                      <h4>Строителство</h4>
-          
-                      <h2>Нов Етап на сроителство - Морска звезда</h2>
-                      
-                      <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
-                      
-                      <h4>17 Март 2020</h4>
-                    </div><!-- /.blog__grid--news--desc -->
-                  </a>
-                </div><!-- /.blog__grid--news -->
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<div class="blog__grid--news">
-                  <a href="#">
-                    <div class="blog__grid--news--photo">
-                      <img src="assets/images/news6.jpg" alt="news6">
-                    </div><!-- /.blog__grid--news--photo -->
-          
-                    <div class="blog__grid--news--desc">
-                      <h4>Строителство</h4>
-          
-                      <h2>Нов Етап на сроителство - Морска звезда</h2>
-                      
-                      <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
-                      
-                      <h4>17 Март 2020</h4>
-                    </div><!-- /.blog__grid--news--desc -->
-                  </a>
-                </div><!-- /.blog__grid--news -->
-							</div><!-- /.carousel-cell -->
-							<div class="carousel-cell">
-								<div class="blog__grid--news">
-                  <a href="#">
-                    <div class="blog__grid--news--photo">
-                      <img src="assets/images/news7.jpg" alt="news7">
-                    </div><!-- /.blog__grid--news--photo -->
-          
-                    <div class="blog__grid--news--desc">
-                      <h4>Строителство</h4>
-          
-                      <h2>Нов Етап на сроителство - Морска звезда</h2>
-                      
-                      <p class="show-on-hover">Лорем ипсум долор сит амет, цонсецтетур адиписцинг елит. Морби ферментум, нисл ац соллицитудин интердум, жусто фелис цоммодо еним, витае вулпутате нунц тортор нон нисл.</p>
-                      
-                      <h4>17 Март 2020</h4>
-                    </div><!-- /.blog__grid--news--desc -->
-                  </a>
-                </div><!-- /.blog__grid--news -->
-							</div><!-- /.carousel-cell -->
-						</div><!-- /.carousel -->
-				</div><!-- /.filters-content-->
-			</div><!-- /.container -->
-		</div><!-- /.portfolio section -->
-	</div><!-- /.wrapper -->
-</div><!-- /.single-project__more-build -->
-  <div class="contacts page-section--contacrs">
-    <div class="wrapper">
-      <div class="contacts__content">
-        <h2 class="contacts__title">Свържете се с нас</h2><!-- /.contacts__title -->
-  
-        <div class="contacts__boxs">
-          <div class="contacts__boxs--box">
-            <h4>Продажби</h4>
-  
-            <a href="tel:+359884606014">+359 884 606014</a>
-  
-            <div class="contacts__boxs--box--blue-bg">
-              <p>Понеделни - Петък, 09:00 - 18:00</p>
-            </div><!-- /.contacts__boxs--box--blue-bg -->
-          </div><!-- /.contacts__boxs--box -->
-  
-          <div class="contacts__boxs--box">
-            <h4>Управител</h4>
-  
-            <a href="tel:+359888737489">+359 888 737489</a>
-  
-            <div class="contacts__boxs--box--blue-bg">
-              <p>Понеделни - Петък, 09:00 - 18:00</p>
-            </div><!-- /.contacts__boxs--box--blue-bg -->
-          </div><!-- /.contacts__boxs--box -->
-        </div><!-- /.contacts__boxs -->
-  
-        <div class="contacts__form">
-          <form action="">
-            <div class="contacts__form--space">
-              <input type="text" id="fname" name="fname" placeholder="Име*" required>
-              <input type="text" id="lname" name="lname" placeholder="Фамилия*" required>
-              <input type="tel" id="phone" name="phone" placeholder="Телефон*" required>
-              <input type="email" id="email" name="email" placeholder="Имейл*" required>
-            </div><!-- /.contact__form--spacee -->
-  
-            <textarea name="message" id="message" cols="30" rows="8" placeholder="Вашето съобщение*" required></textarea>
-            <input type="checkbox" id="terms" name="terms" value="terms" class="myinput">
-            <label for="terms">Запознат/а съм с <a href="#">Общите усливя за защита на личните данни.</a></label>
-            <input type="submit" value="Изпрати">
-          </form>
-        </div><!-- /.contacts__form -->
-      </div><!-- /.contacts__content -->
-    </div><!-- /.wrapper -->
-  </div><!-- /.contacts page-section--contacrs -->
-  <div class="widget page-section--widget">
-    <div class="wrapper">
-      <div class="widget__content">
-        <div class="widget__content--column">
-          <div class="widget__content--b-line">
-            <img src="assets/images/footer-logo.png" alt="footer-logo">
-          </div><!-- /.widget__content--b-line -->
-  
-          <div class="widget__content--b-line">
-            <p>Варна Билд Имоти ЕООД </br>
-              Строителство на сгради, ремонтни дейности и посредничество при покупка и продажба на недвижими имоти. </p>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div class="widget__content--b-line">
-            <a href="privacy.html">Общи условия за защита на личните данни</a>
-          </div><!-- /.widget__content--b-line -->
-        </div><!-- /.widget__content--column -->
-  
-        <div class="widget__content--column">
-          <div class="widget__content--b-line">
-            <a href="#">Текущи проекти</a>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div class="widget__content--b-line">
-            <a href="#">Завършени проекти</a>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div class="widget__content--b-line">
-            <a href="other-property.html">Други имоти</a>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div class="widget__content--b-line">
-            <a href="gallery.html">Галерия</a>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div class="widget__content--b-line">
-            <a href="blog.html">Актуално</a>
-          </div><!-- /.widget__content--b-line -->
-        </div><!-- /.widget__content--column -->
-  
-        <div class="widget__content--column">
-          <div class="widget__content--b-line">
-            <p>Продажби:</p>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div>
-            <a href="tel:+359884 606014">+359 884 606014</a>
-            <p class="widget__content--b-margin">/Диана Петкова/</p>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div class="widget__content--b-line">
-            <p>Имейл:</p>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div>
-            <a href="mailto:office@varnabuild.com">office@varnabuild.com</a>
-          </div>
-        </div><!-- /.widget__content--column -->
-  
-        <div class="widget__content--column">
-          <div class="widget__content--b-line">
-            <p>Управител:</p>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div>
-            <a href="tel:+359888 737489">+359 888 737489</a>
-  
-            <p class="widget__content--b-margin">/Николай Пантелеев/</p>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div class="widget__content--b-line">
-            <p>Офис:</p>
-          </div><!-- /.widget__content--b-line -->
-  
-          <div>
-            <p>гр, Варна, ул. Батак 7, етаж 2, офис 7</p>
-          </div>
-        </div><!-- /.widget__content--column -->
-      </div><!-- /.widget__content -->
-    </div><!-- /.wrapper -->
-  </div><!-- /.widget page-section--widget -->
-  <footer class="f page-section--f">
-    <div class="wrapper">
-      <p class="f__left">&copy; 2020 „Варна Билд Имоти” ЕООД, Всички права запазени.</p><!--/.f__left-->
-  
-    <p class="f__right">Изработка на сайт и дизйн  <a href="https://bultag.com/"><img src="assets/images/bultag-logo.png" alt="bultag-logo"></a></p><!--/.f__right-->
-    </div><!-- /.wrapper -->
-  </footer><!--/.f .page-section--f-->
-  <script type="text/javascript" src="main.b094e1186db7865c7108.js"></script></body>
-  </html>
+					<div class="contacts__boxs--box--blue-bg">
+						<p>Понеделни - Петък, 09:00 - 18:00</p>
+					</div><!-- /.contacts__boxs--box--blue-bg -->
+				</div><!-- /.contacts__boxs--box -->
+
+				<div class="contacts__boxs--box">
+					<h4>Управител</h4>
+
+					<a href="tel:+359888737489">+359 888 737489</a>
+
+					<div class="contacts__boxs--box--blue-bg">
+						<p>Понеделни - Петък, 09:00 - 18:00</p>
+					</div><!-- /.contacts__boxs--box--blue-bg -->
+				</div><!-- /.contacts__boxs--box -->
+			</div><!-- /.contacts__boxs -->
+
+			<div class="contacts__form">
+				<form action="">
+					<div class="contacts__form--space">
+						<input type="text" id="fname" name="fname" placeholder="Име*" required>
+						<input type="text" id="lname" name="lname" placeholder="Фамилия*" required>
+						<input type="tel" id="phone" name="phone" placeholder="Телефон*" required>
+						<input type="email" id="email" name="email" placeholder="Имейл*" required>
+					</div><!-- /.contact__form--spacee -->
+
+					<textarea name="message" id="message" cols="30" rows="8" placeholder="Вашето съобщение*" required></textarea>
+					<input type="checkbox" id="terms" name="terms" value="terms" class="myinput">
+					<label for="terms">Запознат/а съм с <a href="#">Общите усливя за защита на личните данни.</a></label>
+					<input type="submit" value="Изпрати">
+				</form>
+			</div><!-- /.contacts__form -->
+		</div><!-- /.contacts__content -->
+	</div><!-- /.shell -->
+
+  <svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-left c1" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M125.85 139.396C136.16 150.816 136.16 168.184 125.85 179.604L0 319L0 0L125.85 139.396Z" fill=""/>
+  </svg>
+
+  <svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-left c2" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M91.8869 101.911C102.179 113.326 102.179 130.674 91.8869 142.089L0 244L0 0L91.8869 101.911Z" fill=""/>
+  </svg>
+
+  <svg width="134" height="319" viewBox="0 0 134 319" fill="none" class="i-triangle-big-right c1" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.604213" fill-rule="evenodd" clip-rule="evenodd" d="M8.14997 139.396C-2.15995 150.816 -2.15994 168.184 8.14998 179.604L134 319L134 0L8.14997 139.396Z" fill=""/>
+  </svg>
+
+  <svg width="100" height="244" viewBox="0 0 100 244" fill="none" class="i-triangle-small-right c2" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.595285" fill-rule="evenodd" clip-rule="evenodd" d="M8.11313 101.911C-2.17933 113.326 -2.17933 130.674 8.11314 142.089L100 244L100 0L8.11313 101.911Z" fill=""/>
+  </svg>
+</section><!-- /.contacts page-section--contacts -->
+<section class="widget page-section--widget">
+	<div class="shell">
+		<div class="widget__content">
+			<div class="widget__content--column">
+				<div class="widget__content--b-line">
+					<img src="assets/images/footer-logo.png" alt="footer-logo">
+				</div><!-- /.widget__content--b-line -->
+
+				<div class="widget__content--b-line">
+					<p>Варна Билд Имоти ЕООД </br>
+						Строителство на сгради, ремонтни дейности и посредничество при покупка и продажба на недвижими имоти. </p>
+				</div><!-- /.widget__content--b-line -->
+
+				<div class="widget__content--b-line">
+					<a href="privacy.html">Общи условия за защита на личните данни</a>
+				</div><!-- /.widget__content--b-line -->
+			</div><!-- /.widget__content--column -->
+
+			<div class="widget__content--column">
+				<div class="widget__content--b-line">
+					<a href="project.html">Текущи проекти</a>
+				</div><!-- /.widget__content--b-line -->
+
+				<div class="widget__content--b-line">
+					<a href="project.html">Завършени проекти</a>
+				</div><!-- /.widget__content--b-line -->
+
+				<div class="widget__content--b-line">
+					<a href="other-property.html">Други имоти</a>
+				</div><!-- /.widget__content--b-line -->
+
+				<div class="widget__content--b-line">
+					<a href="gallery.html">Галерия</a>
+				</div><!-- /.widget__content--b-line -->
+
+				<div class="widget__content--b-line">
+					<a href="blog.html">Актуално</a>
+				</div><!-- /.widget__content--b-line -->
+			</div><!-- /.widget__content--column -->
+
+			<div class="widget__content--column">
+				<div class="widget__content--b-line no-hover">
+					<p>Продажби:</p>
+				</div><!-- /.widget__content--b-line -->
+
+				<div>
+					<a class="blue-zoom" href="tel:+359884 606014">+359 884 606014</a>
+					<p class="widget__content--b-margin">/Диана Петкова/</p>
+				</div><!-- /.widget__content--b-line -->
+
+				<div class="widget__content--b-line no-hover">
+					<p>Имейл:</p>
+				</div><!-- /.widget__content--b-line -->
+
+				<div>
+					<a class="blue-zoom" href="mailto:office@varnabuild.com">office@varnabuild.com</a>
+				</div>
+			</div><!-- /.widget__content--column -->
+
+			<div class="widget__content--column">
+				<div class="widget__content--b-line no-hover">
+					<p>Управител:</p>
+				</div><!-- /.widget__content--b-line -->
+
+				<div>
+					<a class="blue-zoom" href="tel:+359888 737489">+359 888 737489</a>
+
+					<p class="widget__content--b-margin">/Николай Пантелеев/</p>
+				</div><!-- /.widget__content--b-line -->
+
+				<div class="widget__content--b-line no-hover">
+					<p>Офис:</p>
+				</div><!-- /.widget__content--b-line -->
+
+				<div>
+					<p>гр, Варна, ул. Батак 7, етаж 2, офис 7</p>
+				</div>
+			</div><!-- /.widget__content--column -->
+		</div><!-- /.widget__content -->
+	</div><!-- /.shell -->
+</section><!-- /.widget page-section--widget -->
+<footer class="f page-section--f">
+	<div class="shell">
+		<p class="f__left">&copy; 2020 „Варна Билд Имоти” ЕООД, Всички права запазени.</p><!--/.f__left-->
+
+	<p class="f__right">Изработка на сайт и дизйн  <a href="https://bultag.com/"><img src="assets/images/bultag-logo.png" alt="bultag-logo"></a></p><!--/.f__right-->
+	</div><!-- /.shell -->
+</footer><!--/.f .page-section--f-->
+<script type="text/javascript" src="main.b675a48d3bb934f9aa5a.js"></script></body>
+</html>
